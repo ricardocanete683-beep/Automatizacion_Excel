@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+env/
+env.bak/
+venv/
+ENV/
+env.bak/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+build/
+dist/
+.coverage
+*.cover
+.xml
+
+# My IDE's project files
+.idea/
+*.sublime-* 
+
+# local .env files
+.env
