@@ -1,0 +1,37 @@
+INVENTARIO CAMARAPROD - 24/02/2026 08:55:59
+============================================================
+
+Archivos en destino (33):
+  camaraprod_1_PC_default.out | SHA256: 02f279fe405ce224d8e277ece229bc26870141c14dad12ef1289e6b2cc991c00
+  camaraprod_1_SC_AAACertificateService.out | SHA256: 0752c3d9da26dca600b2d7216737f17740fa466d439fb2389d80b3cb2674edb2
+  camaraprod_1_SC_USERTrustRSAAAACA.out | SHA256: 81f7b4df0b1c1547418e6ae33e7fb08c14d5f7d184af2e07c28b9a322ec4aeeb
+  camaraprod_1_SC_root.out | SHA256: 648f7ab8f9504bbf8744e73424af8f4f52c4fb4723cabbbd3da280236b4bf829
+  camaraprod_2_PC_default.out | SHA256: 02f279fe405ce224d8e277ece229bc26870141c14dad12ef1289e6b2cc991c00
+  camaraprod_2_SC_CN=camaraprod,OU=Root-Certificate,OU=camaraprodNode01Cell,OU=camaraprodNode01,O=IBM,C=US.out | SHA256: 6409a95e7bbcc3562fd033db439437910e4f995e08278fda44c5dcee8ae8356c
+  camaraprod_3_SC_root.out | SHA256: 648f7ab8f9504bbf8744e73424af8f4f52c4fb4723cabbbd3da280236b4bf829
+  camaraprod_4_PC_scombanc.out | SHA256: f175804246ab0a46f8d9e3b97597866728bcb97ce0478ef6109e2932d84ff1bf
+  camaraprod_4_SC_AAACertificateServices.out | SHA256: c4d8d2ee7e3946b3f2c11011e8fa8cd0365c47dd0f321cdcac84df55816ab059
+  camaraprod_4_SC_Autoridad-Certificadora-ADSS-Raiz-de-Certinet-S-A.out | SHA256: e5ccf42c137b0aa46717b04444870e2034ee3d87fb3e03d270593ec12033710f
+  camaraprod_4_SC_Autoridad-Certificadora-Intermedia-de-CertiNet-S-A.out | SHA256: cefb5ecc060e5c2d4112e6a2e1b412f438e5a427218ea831c6fe3a94562b7b0f
+  camaraprod_4_SC_DigiCert-Global-G2-TLS-RSA-SHA256-2020-CA1.out | SHA256: a736e13db9d33eca65c2e65be5b7657951b3a41bec5a8ac7d09ca47f4685a729
+  camaraprod_4_SC_DigiCert-Global-Root-CA.out | SHA256: d7ea9de67e04c3b12174c7a94ea948407896f15346952857a215ae10daa155f1
+  camaraprod_4_SC_DigiCert-Global-Root-G2.out | SHA256: 2e83859ffdfe8aee5b1d470ce5b59183b4c4077cd954cb6ca05d8ddb226cb778
+  camaraprod_4_SC_DigiCert-TLS-RSA-SHA256-2020-CA1.out | SHA256: 489d47c689887ad887fb2e334c85179eab38c3468acc19947603aaa1e2fc8186
+  camaraprod_4_SC_DigiCert-TLS-RSA-SHA256-2020.out | SHA256: b437814d515909344e8775e9f00fab17693e0bdc38ecbc8bad3b41bcf84a054a
+  camaraprod_4_SC_OU=Class-3-Public-Primary-Certification-Authority,-O=VeriSign,-Inc.,-C=US.out | SHA256: 1d3c2d76b44883367cb5284101bcd755b11356496899fd5fd6e43a5a7adf2860
+  camaraprod_4_SC_SectigoRSAOrganizationValidationSecureServerCA.out | SHA256: 308f703848a3d10a1b5f6830e47b6f40706664857c823fd713f0bf200133c460
+  camaraprod_4_SC_USERTrustRSAAAACA.out | SHA256: 81f7b4df0b1c1547418e6ae33e7fb08c14d5f7d184af2e07c28b9a322ec4aeeb
+  camaraprod_4_SC_VeriSign-Class-2-Public-Primary-Certification-Authority---G3-(20360716).out | SHA256: be3b30ad2cf437252d3a5afdc18bee8e0e707c0edad4118a3ce12792959a531e
+  camaraprod_4_SC_root.out | SHA256: 648f7ab8f9504bbf8744e73424af8f4f52c4fb4723cabbbd3da280236b4bf829
+  camaraprod_5_PC_default.out | SHA256: 02f279fe405ce224d8e277ece229bc26870141c14dad12ef1289e6b2cc991c00
+  camaraprod_5_SC_AAACertificateService.out | SHA256: 0752c3d9da26dca600b2d7216737f17740fa466d439fb2389d80b3cb2674edb2
+  camaraprod_5_SC_USERTrustRSAAAACA.out | SHA256: 81f7b4df0b1c1547418e6ae33e7fb08c14d5f7d184af2e07c28b9a322ec4aeeb
+  camaraprod_5_SC_root.out | SHA256: 648f7ab8f9504bbf8744e73424af8f4f52c4fb4723cabbbd3da280236b4bf829
+  camaraprod_6_PC_default.out | SHA256: 02f279fe405ce224d8e277ece229bc26870141c14dad12ef1289e6b2cc991c00
+  camaraprod_6_SC_AAACertificateService.out | SHA256: 0752c3d9da26dca600b2d7216737f17740fa466d439fb2389d80b3cb2674edb2
+  camaraprod_6_SC_USERTrustRSAAAACA.out | SHA256: 81f7b4df0b1c1547418e6ae33e7fb08c14d5f7d184af2e07c28b9a322ec4aeeb
+  camaraprod_6_SC_root.out | SHA256: 648f7ab8f9504bbf8744e73424af8f4f52c4fb4723cabbbd3da280236b4bf829
+  camaraprod_DSkeystore_out | SHA256: 665c6d91d087271995752dae1f81845c36814673183bf5dfab64d162db434c59
+  camaraprod_PlugWas.sha256 | SHA256: 4a3f07213e25800e0c2f9ef7e2122f32c17f44f33ecb4e9cf44db25fff042298
+  camaraprod_SSLkeystore_out | SHA256: 4799da82f9e1dc7fd2e80b80c1b6f502b321523c061e822cd1c44d5b06df401b
+  camaraprod_aipackeystore_out | SHA256: 673343092263e16a723e6aa029a99954c2a8008a1fa625e041e703e52fdc1da6

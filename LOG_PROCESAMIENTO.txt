@@ -1,0 +1,254 @@
+[2026-02-26 10:40:38] [INFO] ============================================================
+[2026-02-26 10:40:38] [INFO]   AUDITORIA SSL v5.0 - INICIO (2026-02-26)
+[2026-02-26 10:40:38] [INFO]   Alerta amarilla: certificados que vencen en 90 dias o menos
+[2026-02-26 10:40:38] [INFO]   Archivo de salida: COMBMAN. Keystores de Infraestructura y Seguridad - Enero 2026.xlsx
+[2026-02-26 10:40:38] [INFO] ============================================================
+[2026-02-26 10:40:38] [INFO]   CAMARAPROD: 34 archivos en C:\Automatizacion_Excel\PROCESADOS\CAMARAPROD
+[2026-02-26 10:40:38] [INFO]   CAMARARESP: 35 archivos en C:\Automatizacion_Excel\PROCESADOS\CAMARARESP
+[2026-02-26 10:40:38] [INFO]   CAMARATEST: 38 archivos en C:\Automatizacion_Excel\PROCESADOS\CAMARATEST
+[2026-02-26 10:40:38] [INFO] Hoja: CAMARAPROD-WAS | Ambiente: CAMARAPROD
+[2026-02-26 10:40:38] [INFO]   -> Procesando hoja WAS: CAMARAPROD-WAS
+[2026-02-26 10:40:38] [INFO]     Seccion 1: CMSKeyStore 
+[2026-02-26 10:40:38] [ALERT]     [CAMARAPROD-WAS] 'default': PROXIMO A VENCER en 81 dias (2026-05-18)
+[2026-02-26 10:40:38] [INFO]     #1 'default' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'SC_AAACertificateService': vigente (1039 dias restantes, 2028-12-31)
+[2026-02-26 10:40:38] [INFO]     #1 'SC_AAACertificateService' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'SC_USERTrustRSAAAACA': vigente (1039 dias restantes, 2028-12-31)
+[2026-02-26 10:40:38] [INFO]     #1 'SC_USERTrustRSAAAACA' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'root': fecha no parseable
+[2026-02-26 10:40:38] [INFO]     #1 'root' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     Seccion 2:  NodeDefaultKeyStore
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'CN=camaraprod,OU=Root Certificate,OU=camaraprodNode01Cell,OU=camaraprodNode01,O=IBM,C=US': vigente (5191 dias restantes, 2040-05-14)
+[2026-02-26 10:40:38] [INFO]     #2 'CN=camaraprod,OU=Root Certificate,OU=camaraprodNode01Cell,OU=camaraprodNode01,O=IBM,C=US' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     Seccion 3: NodeDefaultTrustStore
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'root': vigente (5191 dias restantes, 2040-05-14)
+[2026-02-26 10:40:38] [INFO]     #3 'root' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     Seccion 4: combanckey
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'Autoridad Certificadora ADSS Raiz de Certinet S A': vigente (6686 dias restantes, 2044-06-17)
+[2026-02-26 10:40:38] [INFO]     #4 'Autoridad Certificadora ADSS Raiz de Certinet S A' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'Autoridad Certificadora Intermedia de CertiNet S A': vigente (4859 dias restantes, 2039-06-17)
+[2026-02-26 10:40:38] [INFO]     #4 'Autoridad Certificadora Intermedia de CertiNet S A' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'DigiCertGlobalRootCA': vigente (2082 dias restantes, 2031-11-09)
+[2026-02-26 10:40:38] [INFO]     #4 'DigiCertGlobalRootCA' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'DigiCert TLS RSA SHA256 2020': vigente (1670 dias restantes, 2030-09-23)
+[2026-02-26 10:40:38] [INFO]     #4 'DigiCert TLS RSA SHA256 2020' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'OU Class 3 Public Primary': vigente (887 dias restantes, 2028-08-01)
+[2026-02-26 10:40:38] [INFO]     #4 'OU Class 3 Public Primary' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'VeriSign Class 2 Public Primary Certification Authority - G3 (20360716)': vigente (3793 dias restantes, 2036-07-16)
+[2026-02-26 10:40:38] [INFO]     #4 'VeriSign Class 2 Public Primary Certification Authority - G3 (20360716)' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'root': vigente (5191 dias restantes, 2040-05-14)
+[2026-02-26 10:40:38] [INFO]     #4 'root' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'AAACertificateService': vigente (1039 dias restantes, 2028-12-31)
+[2026-02-26 10:40:38] [CAMBIO]     #4 'AAACertificateService' FP: DIFERENTE -> actualizando
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'SectigoRSAOrganizationValidationSecureServerCA': vigente (1769 dias restantes, 2030-12-31)
+[2026-02-26 10:40:38] [INFO]     #4 'SectigoRSAOrganizationValidationSecureServerCA' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-WAS] 'USERTrustRSAAAACA': vigente (1039 dias restantes, 2028-12-31)
+[2026-02-26 10:40:38] [INFO]     #4 'USERTrustRSAAAACA' FP: IGUAL
+[2026-02-26 10:40:38] [ALERT]     [CAMARAPROD-WAS] 'scombanc': PROXIMO A VENCER en 24 dias (2026-03-22)
+[2026-02-26 10:40:38] [CAMBIO]     #4 'scombanc' Serial: DIFERENTE -> actualizando
+[2026-02-26 10:40:38] [INFO] Hoja: CAMARAPROD-COMP.PLUG.WAS | Ambiente: CAMARAPROD
+[2026-02-26 10:40:38] [INFO]   -> Procesando hoja PLUG.WAS: CAMARAPROD-COMP.PLUG.WAS
+[2026-02-26 10:40:38] [INFO]     sha256 cargado: camaraprod_PlugWas.sha256 (3 rutas)
+[2026-02-26 10:40:38] [INFO]     '/WebApp/WebSphere/AppServer/profiles/AppSrv01/config/cells/camaraprodNode01Cell/nodes/camaraprodNode01/servers/webserver1/plugin-key.kdb': IGUAL
+[2026-02-26 10:40:38] [INFO]     '/WebApp/WebSphere/Plugins/config/webserver1/plugin-key.kdb': IGUAL
+[2026-02-26 10:40:38] [INFO]     '/WebApp/WebSphere/Plugins/etc/plugin-key.kdb': IGUAL
+[2026-02-26 10:40:38] [INFO] Hoja: CAMARAPROD-AIPAC | Ambiente: CAMARAPROD
+[2026-02-26 10:40:38] [INFO]   -> Procesando hoja AIPAC: CAMARAPROD-AIPAC
+[2026-02-26 10:40:38] [INFO]     DSkeystore cargado: 2 aliases
+[2026-02-26 10:40:38] [INFO]     SSLkeystore cargado: 6 aliases
+[2026-02-26 10:40:38] [INFO]     Seccion DSkeystore
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-AIPAC] 'cacert': vigente (602 dias restantes, 2027-10-21)
+[2026-02-26 10:40:38] [INFO]     [dskeystore] 'cacert' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-AIPAC] 'signer': vigente (602 dias restantes, 2027-10-21)
+[2026-02-26 10:40:38] [INFO]     [dskeystore] 'signer' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     Seccion SSLkeystore
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-AIPAC] 'entrust root certification authority - ev': vigente (274 dias restantes, 2026-11-27)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'entrust root certification authority - ev' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-AIPAC] 'entrust.net certification authority (2048) 29': vigente (1244 dias restantes, 2029-07-24)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'entrust.net certification authority (2048) 29' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-AIPAC] 'cacert': vigente (602 dias restantes, 2027-10-21)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'cacert' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-AIPAC] 'entrust root certification authority - ec1': vigente (4313 dias restantes, 2037-12-18)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'entrust root certification authority - ec1' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-AIPAC] 'entrust root certification authority - g2': vigente (1745 dias restantes, 2030-12-07)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'entrust root certification authority - g2' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARAPROD-AIPAC] 'signer': vigente (3322 dias restantes, 2035-04-02)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'signer' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO] Hoja: CAMARARESP-WAS | Ambiente: CAMARARESP
+[2026-02-26 10:40:38] [INFO]   -> Procesando hoja WAS: CAMARARESP-WAS
+[2026-02-26 10:40:38] [INFO]     Seccion 1: CMSKeyStore 
+[2026-02-26 10:40:38] [ALERT]     [CAMARARESP-WAS] 'default': PROXIMO A VENCER en 35 dias (2026-04-02)
+[2026-02-26 10:40:38] [INFO]     #1 'default' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'SC_AAACertificateService': vigente (1039 dias restantes, 2028-12-31)
+[2026-02-26 10:40:38] [INFO]     #1 'SC_AAACertificateService' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'SC_USERTrustRSAAAACA': vigente (1039 dias restantes, 2028-12-31)
+[2026-02-26 10:40:38] [INFO]     #1 'SC_USERTrustRSAAAACA' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'root': vigente (5145 dias restantes, 2040-03-29)
+[2026-02-26 10:40:38] [INFO]     #1 'root' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     Seccion 2:  NodeDefaultKeyStore
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'CN=camararesp,OU=Root Certificate,OU=camararespNode01Cell,OU=camararespNode01,O=IBM,C=US': vigente (5145 dias restantes, 2040-03-29)
+[2026-02-26 10:40:38] [INFO]     #2 'CN=camararesp,OU=Root Certificate,OU=camararespNode01Cell,OU=camararespNode01,O=IBM,C=US' FP: IGUAL
+[2026-02-26 10:40:38] [ALERT]     [CAMARARESP-WAS] 'default': PROXIMO A VENCER en 35 dias (2026-04-02)
+[2026-02-26 10:40:38] [INFO]     #2 'default' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     Seccion 3: NodeDefaultTrustStore
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'root': vigente (5145 dias restantes, 2040-03-29)
+[2026-02-26 10:40:38] [INFO]     #3 'root' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     Seccion 4: combanckey
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'Autoridad Certificadora ADSS Raiz de Certinet S A': vigente (6686 dias restantes, 2044-06-17)
+[2026-02-26 10:40:38] [INFO]     #4 'Autoridad Certificadora ADSS Raiz de Certinet S A' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'Autoridad Certificadora Intermedia de CertiNet S A': vigente (4859 dias restantes, 2039-06-17)
+[2026-02-26 10:40:38] [INFO]     #4 'Autoridad Certificadora Intermedia de CertiNet S A' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'DigiCertGlobalRootCA': vigente (2082 dias restantes, 2031-11-09)
+[2026-02-26 10:40:38] [INFO]     #4 'DigiCertGlobalRootCA' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'DigiCert TLS RSA SHA256 2020': vigente (1670 dias restantes, 2030-09-23)
+[2026-02-26 10:40:38] [INFO]     #4 'DigiCert TLS RSA SHA256 2020' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'OU=Class 3 Public Primary Certification Authority, O="VeriSign, Inc.", C=US': vigente (887 dias restantes, 2028-08-01)
+[2026-02-26 10:40:38] [INFO]     #4 'OU=Class 3 Public Primary Certification Authority, O="VeriSign, Inc.", C=US' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'VeriSign Class 2 Public Primary Certification Authority - G3 (20360716)': vigente (3793 dias restantes, 2036-07-16)
+[2026-02-26 10:40:38] [INFO]     #4 'VeriSign Class 2 Public Primary Certification Authority - G3 (20360716)' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'AAACertificateService': vigente (1039 dias restantes, 2028-12-31)
+[2026-02-26 10:40:38] [CAMBIO]     #4 'AAACertificateService' FP: DIFERENTE -> actualizando
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'SectigoRSAOrganizationValidationSecureServerCA': vigente (1769 dias restantes, 2030-12-31)
+[2026-02-26 10:40:38] [INFO]     #4 'SectigoRSAOrganizationValidationSecureServerCA' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'USERTrustRSAAAACA': vigente (1039 dias restantes, 2028-12-31)
+[2026-02-26 10:40:38] [INFO]     #4 'USERTrustRSAAAACA' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-WAS] 'root': vigente (2951 dias restantes, 2034-03-27)
+[2026-02-26 10:40:38] [INFO]     #4 'root' FP: IGUAL
+[2026-02-26 10:40:38] [ALERT]     [CAMARARESP-WAS] 'scombanc': PROXIMO A VENCER en 24 dias (2026-03-22)
+[2026-02-26 10:40:38] [CAMBIO]     #4 'scombanc' Serial: DIFERENTE -> actualizando
+[2026-02-26 10:40:38] [INFO] Hoja: CAMARARESP-COMP.PLUG.WAS | Ambiente: CAMARARESP
+[2026-02-26 10:40:38] [INFO]   -> Procesando hoja PLUG.WAS: CAMARARESP-COMP.PLUG.WAS
+[2026-02-26 10:40:38] [INFO]     sha256 cargado: camararesp_PlugWas.sha256 (3 rutas)
+[2026-02-26 10:40:38] [INFO]     '/WebApp/WebSphere/AppServer/profiles/AppSrv01/config/cells/camararespNode01Cell/nodes/camararespNode01/servers/webserver1/plugin-key.kdb': IGUAL
+[2026-02-26 10:40:38] [INFO]     '/WebApp/WebSphere/Plugins/config/webserver1/plugin-key.kdb': IGUAL
+[2026-02-26 10:40:38] [INFO]     '/WebApp/WebSphere/Plugins/etc/plugin-key.kdb': IGUAL
+[2026-02-26 10:40:38] [INFO] Hoja: CAMARARESP-AIPAC | Ambiente: CAMARARESP
+[2026-02-26 10:40:38] [INFO]   -> Procesando hoja AIPAC: CAMARARESP-AIPAC
+[2026-02-26 10:40:38] [INFO]     DSkeystore cargado: 2 aliases
+[2026-02-26 10:40:38] [INFO]     SSLkeystore cargado: 6 aliases
+[2026-02-26 10:40:38] [VENC]     [CAMARARESP-AIPAC] 'ws_falabella': VENCIDO hace 5783 dias (2010-04-28)
+[2026-02-26 10:40:38] [VENC]     [CAMARARESP-AIPAC] 'server-signer': VENCIDO hace 3668 dias (2016-02-11)
+[2026-02-26 10:40:38] [VENC]     [CAMARARESP-AIPAC] 'mykey': VENCIDO hace 3673 dias (2016-02-06)
+[2026-02-26 10:40:38] [INFO]     Seccion DSkeystore
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-AIPAC] 'cacert': vigente (602 dias restantes, 2027-10-21)
+[2026-02-26 10:40:38] [INFO]     [dskeystore] 'cacert' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-AIPAC] 'signer': vigente (602 dias restantes, 2027-10-21)
+[2026-02-26 10:40:38] [INFO]     [dskeystore] 'signer' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     Seccion SSLkeystore
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-AIPAC] 'entrust root certification authority - ev': vigente (274 dias restantes, 2026-11-27)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'entrust root certification authority - ev' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-AIPAC] 'entrust.net certification authority (2048) 29': vigente (1244 dias restantes, 2029-07-24)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'entrust.net certification authority (2048) 29' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-AIPAC] 'cacert': vigente (602 dias restantes, 2027-10-21)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'cacert' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-AIPAC] 'entrust root certification authority - ec1': vigente (4313 dias restantes, 2037-12-18)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'entrust root certification authority - ec1' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-AIPAC] 'entrust root certification authority - g2': vigente (1745 dias restantes, 2030-12-07)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'entrust root certification authority - g2' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARARESP-AIPAC] 'signer': vigente (3322 dias restantes, 2035-04-02)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'signer' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO] Hoja: CAMARATEST-WAS | Ambiente: CAMARATEST
+[2026-02-26 10:40:38] [INFO]   -> Procesando hoja WAS: CAMARATEST-WAS
+[2026-02-26 10:40:38] [INFO]     Seccion 1: CMSKeyStore 
+[2026-02-26 10:40:38] [ALERT]     [CAMARATEST-WAS] 'default': PROXIMO A VENCER en 32 dias (2026-03-30)
+[2026-02-26 10:40:38] [INFO]     #1 'default' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'SC_AAACertificateService': vigente (1039 dias restantes, 2028-12-31)
+[2026-02-26 10:40:38] [INFO]     #1 'SC_AAACertificateService' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'SC_USERTrustRSAAAACA': vigente (1039 dias restantes, 2028-12-31)
+[2026-02-26 10:40:38] [INFO]     #1 'SC_USERTrustRSAAAACA' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'root': vigente (5142 dias restantes, 2040-03-26)
+[2026-02-26 10:40:38] [INFO]     #1 'root' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     Seccion 2:  NodeDefaultKeyStore
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'CN=camaratest,OU=Root Certificate,OU=camaratestNode01Cell,OU=camaratestNode01,O=IBM,C=US': vigente (5142 dias restantes, 2040-03-26)
+[2026-02-26 10:40:38] [INFO]     #2 'CN=camaratest,OU=Root Certificate,OU=camaratestNode01Cell,OU=camaratestNode01,O=IBM,C=US' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     Seccion 3: NodeDefaultTrustStore
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'root': vigente (5142 dias restantes, 2040-03-26)
+[2026-02-26 10:40:38] [INFO]     #3 'root' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     Seccion 4: combanckey
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'Autoridad Certificadora ADSS Raiz de Certinet S A': vigente (6686 dias restantes, 2044-06-17)
+[2026-02-26 10:40:38] [INFO]     #4 'Autoridad Certificadora ADSS Raiz de Certinet S A' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'Autoridad Certificadora Intermedia de CertiNet S A': vigente (4859 dias restantes, 2039-06-17)
+[2026-02-26 10:40:38] [INFO]     #4 'Autoridad Certificadora Intermedia de CertiNet S A' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'Certinet-S-A-Firma-Electronica-Avanzada-(20340617)': vigente (3033 dias restantes, 2034-06-17)
+[2026-02-26 10:40:38] [INFO]     #4 'Certinet-S-A-Firma-Electronica-Avanzada-(20340617)' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'DigiCertGlobalRootCA': vigente (2082 dias restantes, 2031-11-09)
+[2026-02-26 10:40:38] [INFO]     #4 'DigiCertGlobalRootCA' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'DigiCert TLS RSA SHA256 2020': vigente (1670 dias restantes, 2030-09-23)
+[2026-02-26 10:40:38] [INFO]     #4 'DigiCert TLS RSA SHA256 2020' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'OU Class 3 Public Primary': vigente (887 dias restantes, 2028-08-01)
+[2026-02-26 10:40:38] [INFO]     #4 'OU Class 3 Public Primary' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'VeriSign Class 2 Public Primary Certification Authority - G3 (20360716)': vigente (3793 dias restantes, 2036-07-16)
+[2026-02-26 10:40:38] [INFO]     #4 'VeriSign Class 2 Public Primary Certification Authority - G3 (20360716)' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'root': vigente (2951 dias restantes, 2034-03-27)
+[2026-02-26 10:40:38] [INFO]     #4 'root' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'AAACertificateService': vigente (1039 dias restantes, 2028-12-31)
+[2026-02-26 10:40:38] [CAMBIO]     #4 'AAACertificateService' FP: DIFERENTE -> actualizando
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'SectigoRSAOrganizationValidationSecureServerCA': vigente (1769 dias restantes, 2030-12-31)
+[2026-02-26 10:40:38] [INFO]     #4 'SectigoRSAOrganizationValidationSecureServerCA' FP: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-WAS] 'USERTrustRSAAAACA': vigente (1039 dias restantes, 2028-12-31)
+[2026-02-26 10:40:38] [INFO]     #4 'USERTrustRSAAAACA' FP: IGUAL
+[2026-02-26 10:40:38] [ALERT]     [CAMARATEST-WAS] 'scombanc': PROXIMO A VENCER en 24 dias (2026-03-22)
+[2026-02-26 10:40:38] [CAMBIO]     #4 'scombanc' Serial: DIFERENTE -> actualizando
+[2026-02-26 10:40:38] [INFO] Hoja: CAMARATEST-COMP.PLUG.WAS | Ambiente: CAMARATEST
+[2026-02-26 10:40:38] [INFO]   -> Procesando hoja PLUG.WAS: CAMARATEST-COMP.PLUG.WAS
+[2026-02-26 10:40:38] [INFO]     sha256 cargado: camaratest_PlugWas.sha256 (3 rutas)
+[2026-02-26 10:40:38] [CAMBIO]     '/WebApp/WebSphere/AppServer/profiles/AppSrv01/config/cells/camaratestNode01Cell/nodes/camaratestNode01/servers/webserver1/plugin-key.kdb': DIFERENTE -> actualizando
+[2026-02-26 10:40:38] [INFO]     '/WebApp/WebSphere/Plugins/config/webserver1/plugin-key.kdb': IGUAL
+[2026-02-26 10:40:38] [INFO]     '/WebApp/WebSphere/Plugins/etc/plugin-key.kdb': IGUAL
+[2026-02-26 10:40:38] [INFO] Hoja: CAMARATEST-AIPAC | Ambiente: CAMARATEST
+[2026-02-26 10:40:38] [INFO]   -> Procesando hoja AIPAC: CAMARATEST-AIPAC
+[2026-02-26 10:40:38] [INFO]     DSkeystore cargado: 2 aliases
+[2026-02-26 10:40:38] [INFO]     SSLkeystore cargado: 6 aliases
+[2026-02-26 10:40:38] [INFO]     Seccion DSkeystore
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-AIPAC] 'cacert': vigente (602 dias restantes, 2027-10-21)
+[2026-02-26 10:40:38] [INFO]     [dskeystore] 'cacert' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-AIPAC] 'signer': vigente (602 dias restantes, 2027-10-21)
+[2026-02-26 10:40:38] [INFO]     [dskeystore] 'signer' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     Seccion SSLkeystore
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-AIPAC] 'entrust root certification authority - ev': vigente (274 dias restantes, 2026-11-27)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'entrust root certification authority - ev' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-AIPAC] 'entrust.net certification authority (2048) 29': vigente (1244 dias restantes, 2029-07-24)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'entrust.net certification authority (2048) 29' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-AIPAC] 'cacert': vigente (602 dias restantes, 2027-10-21)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'cacert' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-AIPAC] 'entrust root certification authority - ec1': vigente (4313 dias restantes, 2037-12-18)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'entrust root certification authority - ec1' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-AIPAC] 'entrust root certification authority - g2': vigente (1745 dias restantes, 2030-12-07)
+[2026-02-26 10:40:38] [INFO]     [sslkeystore] 'entrust root certification authority - g2' Serial: IGUAL
+[2026-02-26 10:40:38] [INFO]     [CAMARATEST-AIPAC] 'signer': vigente (3322 dias restantes, 2035-04-02)
+[2026-02-26 10:40:38] [CAMBIO]     [sslkeystore] 'signer' Serial: DIFERENTE -> actualizando
+[2026-02-26 10:40:38] [WARN] Hoja 'CertificadosHWCombanc': sin ambiente, se omite.
+[2026-02-26 10:40:38] [INFO] Guardando en: C:\Automatizacion_Excel\COMBMAN. Keystores de Infraestructura y Seguridad - Enero 2026.xlsx
+[2026-02-26 10:40:38] [INFO] 
+============================================================
+[2026-02-26 10:40:38] [INFO]   RESUMEN - CAMBIOS Y ALERTAS DE VENCIMIENTO
+[2026-02-26 10:40:38] [INFO] ============================================================
+[2026-02-26 10:40:38] [INFO]   ALERTAS DE VENCIMIENTO (9):
+[2026-02-26 10:40:38] [ALERT]     [CAMARAPROD-WAS] 'default': PROXIMO A VENCER en 81 dias (2026-05-18)
+[2026-02-26 10:40:38] [ALERT]     [CAMARAPROD-WAS] 'scombanc': PROXIMO A VENCER en 24 dias (2026-03-22)
+[2026-02-26 10:40:38] [ALERT]     [CAMARARESP-WAS] 'default': PROXIMO A VENCER en 35 dias (2026-04-02)
+[2026-02-26 10:40:38] [ALERT]     [CAMARARESP-WAS] 'scombanc': PROXIMO A VENCER en 24 dias (2026-03-22)
+[2026-02-26 10:40:38] [ALERT]     [CAMARARESP-AIPAC] 'ws_falabella': VENCIDO hace 5783 dias (2010-04-28)
+[2026-02-26 10:40:38] [ALERT]     [CAMARARESP-AIPAC] 'server-signer': VENCIDO hace 3668 dias (2016-02-11)
+[2026-02-26 10:40:38] [ALERT]     [CAMARARESP-AIPAC] 'mykey': VENCIDO hace 3673 dias (2016-02-06)
+[2026-02-26 10:40:38] [ALERT]     [CAMARATEST-WAS] 'default': PROXIMO A VENCER en 32 dias (2026-03-30)
+[2026-02-26 10:40:38] [ALERT]     [CAMARATEST-WAS] 'scombanc': PROXIMO A VENCER en 24 dias (2026-03-22)
+[2026-02-26 10:40:38] [INFO]   DATOS ACTUALIZADOS (8):
+[2026-02-26 10:40:38] [CAMBIO]     CAMARAPROD-WAS | #4 AAACertificateService | FP actualizado
+[2026-02-26 10:40:38] [CAMBIO]     CAMARAPROD-WAS | #4 scombanc | Serial actualizado
+[2026-02-26 10:40:38] [CAMBIO]     CAMARARESP-WAS | #4 AAACertificateService | FP actualizado
+[2026-02-26 10:40:38] [CAMBIO]     CAMARARESP-WAS | #4 scombanc | Serial actualizado
+[2026-02-26 10:40:38] [CAMBIO]     CAMARATEST-WAS | #4 AAACertificateService | FP actualizado
+[2026-02-26 10:40:38] [CAMBIO]     CAMARATEST-WAS | #4 scombanc | Serial actualizado
+[2026-02-26 10:40:38] [CAMBIO]     CAMARATEST-COMP.PLUG.WAS | /WebApp/WebSphere/AppServer/profiles/AppSrv01/config/cells/camaratestNode01Cell/nodes/camaratestNode01/servers/webserver1/plugin-key.kdb | hash actualizado
+[2026-02-26 10:40:38] [CAMBIO]     CAMARATEST-AIPAC | sslkeystore | signer | Serial actualizado
+[2026-02-26 10:40:38] [INFO] 
+>>> PROCESO FINALIZADO <<<
+[2026-02-26 10:40:38] [INFO] ============================================================
+[2026-02-26 10:40:38] [INFO]   ESTADISTICAS DE COBERTURA
+[2026-02-26 10:40:38] [INFO]   Total aliases procesados : 77
+[2026-02-26 10:40:38] [INFO]   Resueltos (con .out)     : 77  (100.0%)
+[2026-02-26 10:40:38] [INFO]   Sin archivo .out         : 0
+[2026-02-26 10:40:38] [INFO] ============================================================
+[2026-02-26 10:40:38] [INFO] Log de vencimientos guardado en: C:\Automatizacion_Excel\LOG_VENCIMIENTOS.txt
+[2026-02-26 10:40:38] [INFO] Reporte HTML generado: REPORTE_AUDITORIA.html

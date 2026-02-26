@@ -1,0 +1,107 @@
+Label : DigiCert TLS RSA SHA256 2020
+Key Size : 2048
+Version : X509 V3
+Serial : 0a3508d55c292b017df8ad65c00ff7e4
+Issuer : "CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US"
+Subject : "CN=DigiCert TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US"
+Not Before : September 23, 2020 8:00:00 PM GMT-04:00
+
+Not After : September 23, 2030 7:59:59 PM GMT-04:00
+
+Public Key
+    30 82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01
+    01 05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01
+    00 C1 4B B3 65 47 70 BC DD 4F 58 DB EC 9C ED C3
+    66 E5 1F 31 13 54 AD 4A 66 46 1F 2C 0A EC 64 07
+    E5 2E DC DC B9 0A 20 ED DF E3 C4 D0 9E 9A A9 7A
+    1D 82 88 E5 11 56 DB 1E 9F 58 C2 51 E7 2C 34 0D
+    2E D2 92 E1 56 CB F1 79 5F B3 BB 87 CA 25 03 7B
+    9A 52 41 66 10 60 4F 57 13 49 F0 E8 37 67 83 DF
+    E7 D3 4B 67 4C 22 51 A6 DF 0E 99 10 ED 57 51 74
+    26 E2 7D C7 CA 62 2E 13 1B 7F 23 88 25 53 6F C1
+    34 58 00 8B 84 FF F8 BE A7 58 49 22 7B 96 AD A2
+    88 9B 15 BC A0 7C DF E9 51 A8 D5 B0 ED 37 E2 36
+    B4 82 4B 62 B5 49 9A EC C7 67 D6 E3 3E F5 E3 D6
+    12 5E 44 F1 BF 71 42 7D 58 84 03 80 B1 81 01 FA
+    F9 CA 32 BB B4 8E 27 87 27 C5 2B 74 D4 A8 D6 97
+    DE C3 64 F9 CA CE 53 A2 56 BC 78 17 8E 49 03 29
+    AE FB 49 4F A4 15 B9 CE F2 5C 19 57 6D 6B 79 A7
+    2B A2 27 20 13 B5 D0 3D 40 D3 21 30 07 93 EA 99
+    F5 02 03 01 00 01
+Public Key Type : RSA (1.2.840.113549.1.1.1)
+Fingerprint : SHA1 : 
+    69 38 FD 4D 98 BA B0 3F AA DB 97 B3 43 96 83 1E
+    37 80 AE A1
+Fingerprint : MD5 : 
+    B6 48 52 C8 17 13 42 1B 7E 47 E4 30 2F 97 65 8A
+Fingerprint : SHA256 : 
+    25 76 87 13 D3 B4 59 F9 38 2D 2A 59 4F 85 F3 47
+    09 FD 2A 89 30 73 15 42 A4 14 6F FB 24 6B EC 69
+Fingerprint : HPKP : 
+    RQeZkB42znUfsDIIFWIRiYEcKl7nHwNFwWCrnMMJbVc=
+Extensions
+    SubjectKeyIdentifier
+      keyIdentifier:
+    B7 6B A2 EA A8 AA 84 8C 79 EA B4 DA 0F 98 B2 C5
+    95 76 B9 F4
+    AuthorityKeyIdentifier
+      keyIdentifier:
+    03 DE 50 35 56 D1 4C BB 66 F0 A3 E2 1B 1B C3 97
+    B2 3D D1 55
+      authorityIdentifier:
+      authorityCertSerialNumber:
+    key usage: digitalSignature, keyCertSign, cRLSign
+        critical
+    eku
+        serverAuth
+        clientAuth
+    basicConstraints
+        ca = true
+        pathLen = 0
+        critical
+    AuthorityInfoAccess
+    PKIX_AD_OCSP (1.3.6.1.5.5.7.48.1)
+      accessLocation:uniformResourceID: http://ocsp.digicert.com
+    PKIX_AD_CA_Issuer (1.3.6.1.5.5.7.48.2)
+      accessLocation:uniformResourceID: http://cacerts.digicert.com/DigiCertGlobalRootCA.crt
+    CRLDistributionPoints
+      fullname:
+      uniformResourceID:GSKASNObject: OBJECT(tag=22, class=0) value: -----BEGIN HEX-----
+16 31 68 74 74 70 3A 2F 2F 63 72 6C 33 2E 64 69     .1http://crl3.di
+67 69 63 65 72 74 2E 63 6F 6D 2F 44 69 67 69 43     gicert.com/DigiC
+65 72 74 47 6C 6F 62 61 6C 52 6F 6F 74 43 41 2E     ertGlobalRootCA.
+63 72 6C                                            crl
+-----END HEX-----
+
+      fullname:
+      uniformResourceID:GSKASNObject: OBJECT(tag=22, class=0) value: -----BEGIN HEX-----
+16 31 68 74 74 70 3A 2F 2F 63 72 6C 34 2E 64 69     .1http://crl4.di
+67 69 63 65 72 74 2E 63 6F 6D 2F 44 69 67 69 43     gicert.com/DigiC
+65 72 74 47 6C 6F 62 61 6C 52 6F 6F 74 43 41 2E     ertGlobalRootCA.
+63 72 6C                                            crl
+-----END HEX-----
+
+    certificatePolicies
+        2.23.140.1.1
+        2.23.140.1.2.1
+        2.23.140.1.2.2
+        2.23.140.1.2.3
+Signature Algorithm : SHA256WithRSASignature (1.2.840.113549.1.1.11)
+Value
+    77 AB B7 7A 27 3D AE BB F6 7F E0 5A 56 C9 84 AA
+    CA 5B 71 17 DD 22 47 FC 4E 9F EE D0 C1 A4 04 E1
+    A3 EB C5 49 C1 FD D1 C9 DF 8C AF 94 45 2C 46 2A
+    A3 63 39 20 F9 9E 4A 24 94 41 C8 A9 D9 E2 9C 54
+    05 06 CB 5C 1C BE 00 1B 0F A8 5A FF 19 BB 65 C7
+    16 AF 21 56 DD 61 05 C9 E9 8F 98 76 DF 6B 1B D0
+    72 0C 50 B9 30 29 7A BF 60 59 10 66 13 3A 2D AC
+    15 11 6C 2D 23 0C 02 3E 05 3B FE E5 A1 9C E2 8A
+    DB 87 D7 4A E8 5E E7 48 06 EB AB 12 9A F2 AF 84
+    C3 5B 83 4A 99 81 83 AB 00 A1 CA 0A 3C 4C A2 25
+    89 2A 22 A7 A4 F3 33 4C 5B 8C 2E 1A 02 97 0F 9D
+    8F 6D 2D 95 08 FB 4F DA F1 91 38 25 E1 9C 6E 61
+    18 87 6A CE B1 BB 00 30 6A 9B B7 AF DA F1 C5 97
+    FE 8A 78 24 AA EA 93 80 BA 33 65 7A BC A1 77 E9
+    7F 69 14 0B 00 3F 77 92 B1 4D 5B 73 87 0A 13 D0
+    9C C8 F2 4B 39 4F 52 84 49 A6 4C 90 4E 1F F7 B4
+Trust Status : Enabled

@@ -1,0 +1,100 @@
+Label : DigiCert Global G2 TLS RSA SHA256 2020 CA1
+Key Size : 2048
+Version : X509 V3
+Serial : 0cf5bd062b5602f47ab8502c23ccf066
+Issuer : "CN=DigiCert Global Root G2,OU=www.digicert.com,O=DigiCert Inc,C=US"
+Subject : "CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US"
+Not Before : March 29, 2021 8:00:00 PM GMT-04:00
+
+Not After : March 29, 2031 7:59:59 PM GMT-04:00
+
+Public Key
+    30 82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01
+    01 05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01
+    00 CC F7 10 62 4F A6 BB 63 6F ED 90 52 56 C5 6D
+    27 7B 7A 12 56 8A F1 F4 F9 D6 E7 E1 8F BD 95 AB
+    F2 60 41 15 70 DB 12 00 FA 27 0A B5 57 38 5B 7D
+    B2 51 93 71 95 0E 6A 41 94 5B 35 1B FA 7B FA BB
+    C5 BE 24 30 FE 56 EF C4 F3 7D 97 E3 14 F5 14 4D
+    CB A7 10 F2 16 EA AB 22 F0 31 22 11 61 69 90 26
+    BA 78 D9 97 1F E3 7D 66 AB 75 44 95 73 C8 AC FF
+    EF 5D 0A 8A 59 43 E1 AC B2 3A 0F F3 48 FC D7 6B
+    37 C1 63 DC DE 46 D6 DB 45 FE 7D 23 FD 90 E8 51
+    07 1E 51 A3 5F ED 49 46 54 7F 2C 88 C5 F4 13 9C
+    97 15 3C 03 E8 A1 39 DC 69 0C 32 C1 AF 16 57 4C
+    94 47 42 7C A2 C8 9C 7D E6 D4 4D 54 AF 42 99 A8
+    C1 04 C2 77 9C D6 48 E4 CE 11 E0 2A 80 99 F0 43
+    70 CF 3F 76 6B D1 4C 49 AB 24 5E C2 0D 82 FD 46
+    A8 AB 6C 93 CC 62 52 42 75 92 F8 9A FA 5E 5E B2
+    B0 61 E5 1F 1F B9 7F 09 98 E8 3D FA 83 7F 47 69
+    A1 02 03 01 00 01
+Public Key Type : RSA (1.2.840.113549.1.1.1)
+Fingerprint : SHA1 : 
+    1B 51 1A BE AD 59 C6 CE 20 70 77 C0 BF 0E 00 43
+    B1 38 26 12
+Fingerprint : MD5 : 
+    21 14 C6 BF 5B E1 5E FD DD 3C F6 A5 F9 43 EE 8A
+Fingerprint : SHA256 : 
+    C8 02 5F 9F C6 5F DF C9 5B 3C A8 CC 78 67 B9 A5
+    87 B5 27 79 73 95 79 17 46 3F C8 13 D0 B6 25 A9
+Fingerprint : HPKP : 
+    Wec45nQiFwKvHtuHxSAMGkt19k+uPSw9JlEkxhvYPHk=
+Extensions
+    basicConstraints
+        ca = true
+        pathLen = 0
+        critical
+    SubjectKeyIdentifier
+      keyIdentifier:
+    74 85 80 C0 66 C7 DF 37 DE CF BD 29 37 AA 03 1D
+    BE ED CD 17
+    AuthorityKeyIdentifier
+      keyIdentifier:
+    4E 22 54 20 18 95 E6 E3 6E E6 0F FA FA B9 12 ED
+    06 17 8F 39
+      authorityIdentifier:
+      authorityCertSerialNumber:
+    key usage: digitalSignature, keyCertSign, cRLSign
+        critical
+    eku
+        serverAuth
+        clientAuth
+    AuthorityInfoAccess
+    PKIX_AD_OCSP (1.3.6.1.5.5.7.48.1)
+      accessLocation:uniformResourceID: http://ocsp.digicert.com
+    PKIX_AD_CA_Issuer (1.3.6.1.5.5.7.48.2)
+      accessLocation:uniformResourceID: http://cacerts.digicert.com/DigiCertGlobalRootG2.crt
+    CRLDistributionPoints
+      fullname:
+      uniformResourceID:GSKASNObject: OBJECT(tag=22, class=0) value: -----BEGIN HEX-----
+16 31 68 74 74 70 3A 2F 2F 63 72 6C 33 2E 64 69     .1http://crl3.di
+67 69 63 65 72 74 2E 63 6F 6D 2F 44 69 67 69 43     gicert.com/DigiC
+65 72 74 47 6C 6F 62 61 6C 52 6F 6F 74 47 32 2E     ertGlobalRootG2.
+63 72 6C                                            crl
+-----END HEX-----
+
+    certificatePolicies
+        2.16.840.1.114412.2.1
+        2.23.140.1.1
+        2.23.140.1.2.1
+        2.23.140.1.2.2
+        2.23.140.1.2.3
+Signature Algorithm : SHA256WithRSASignature (1.2.840.113549.1.1.11)
+Value
+    90 F1 70 CB 28 97 69 97 7C 74 FD C0 FA 26 7B 53
+    AB AD CD 65 FD BA 9C 06 9C 8A D7 5A 43 87 ED 4D
+    4C 56 5F AD C1 C5 B5 05 20 2E 59 D1 FF 4A F5 A0
+    2A D8 B0 95 AD C9 2E 4A 3B D7 A7 F6 6F 88 29 FC
+    30 3F 24 84 BB C3 B7 7B 93 07 2C AF 87 6B 76 33
+    ED 00 55 52 B2 59 9E E4 B9 D0 F3 DF E7 0F FE DD
+    F8 C4 B9 10 72 81 09 04 5F CF 97 9E 2E 32 75 8E
+    CF 9A 58 D2 57 31 7E 37 01 81 B2 66 6D 29 1A B1
+    66 09 6D D1 6E 90 F4 B9 FA 2F 01 14 C5 5C 56 64
+    01 D9 7D 87 A8 38 53 9F 8B 5D 46 6D 5C C6 27 84
+    81 D4 7E 8C 8C A3 9B 52 E7 C6 88 EC 37 7C 2A FB
+    F0 55 5A 38 72 10 D8 00 13 CF 4C 73 DB AA 37 35
+    A8 29 81 69 9C 76 BC DE 18 7B 90 D4 CA CF EF 67
+    03 FD 04 5A 21 16 B1 FF EA 3F DF DC 82 F5 EB F4
+    59 92 23 0D 24 2A 95 25 4C CA A1 91 E6 D4 B7 AC
+    87 74 B3 F1 6D A3 99 DB F9 D5 BD 84 40 9F 07 98
+Trust Status : Enabled

@@ -1,0 +1,44 @@
+Label : OU=Class 3 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+Key Size : 1024
+Version : X509 V1
+Serial : 70bae41d10d92934b638ca7b03ccbabf
+Issuer : "OU=Class 3 Public Primary Certification Authority,O=VeriSign\, Inc.,C=US"
+Subject : "OU=Class 3 Public Primary Certification Authority,O=VeriSign\, Inc.,C=US"
+Not Before : January 28, 1996 8:00:00 PM GMT-04:00
+
+Not After : August 1, 2028 7:59:59 PM GMT-04:00
+
+Public Key
+    30 81 9F 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01
+    05 00 03 81 8D 00 30 81 89 02 81 81 00 C9 5C 59
+    9E F2 1B 8A 01 14 B4 10 DF 04 40 DB E3 57 AF 6A
+    45 40 8F 84 0C 0B D1 33 D9 D9 11 CF EE 02 58 1F
+    25 F7 2A A8 44 05 AA EC 03 1F 78 7F 9E 93 B9 9A
+    00 AA 23 7D D6 AC 85 A2 63 45 C7 72 27 CC F4 4C
+    C6 75 71 D2 39 EF 4F 42 F0 75 DF 0A 90 C6 8E 20
+    6F 98 0F F8 AC 23 5F 70 29 36 A4 C9 86 E7 B1 9A
+    20 CB 53 A5 85 E7 3D BE 7D 9A FE 24 45 33 DC 76
+    15 ED 0F A2 71 64 4C 65 2E 81 68 45 A7 02 03 01
+    00 01
+Public Key Type : RSA (1.2.840.113549.1.1.1)
+Fingerprint : SHA1 : 
+    74 2C 31 92 E6 07 E4 24 EB 45 49 54 2B E1 BB C5
+    3E 61 74 E2
+Fingerprint : MD5 : 
+    10 FC 63 5D F6 26 3E 0D F3 25 BE 5F 79 CD 67 67
+Fingerprint : SHA256 : 
+    E7 68 56 34 EF AC F6 9A CE 93 9A 6B 25 5B 7B 4F
+    AB EF 42 93 5B 50 A2 65 AC B5 CB 60 27 E4 4E 70
+Fingerprint : HPKP : 
+    sRJBQqWhpaKIGcc1NA7/jJ4vgWj+47oYfyU7waOS1+I=
+Signature Algorithm : MD2WithRSASignature (1.2.840.113549.1.1.2)
+Value
+    BB 4C 12 2B CF 2C 26 00 4F 14 13 DD A6 FB FC 0A
+    11 84 8C F3 28 1C 67 92 2F 7C B6 C5 FA DF F0 E8
+    95 BC 1D 8F 6C 2C A8 51 CC 73 D8 A4 C0 53 F0 4E
+    D6 26 C0 76 01 57 81 92 5E 21 F1 D1 B1 FF E7 D0
+    21 58 CD 69 17 E3 44 1C 9C 19 44 39 89 5C DC 9C
+    00 0F 56 8D 02 99 ED A2 90 45 4C E4 BB 10 A4 3D
+    F0 32 03 0E F1 CE F8 E8 C9 51 8C E6 62 9F E6 9F
+    C0 7D B7 72 9C C9 36 3A 6B 9F 4E A8 FF 64 0D 64
+Trust Status : Enabled

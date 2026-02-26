@@ -1,0 +1,41 @@
+INVENTARIO CAMARARESP - 24/02/2026 08:55:59
+============================================================
+
+Archivos en destino (34):
+  camararesp_1_PC_default.out | SHA256: 320b9ef63b73abb1b73d8b5e846f10571b6fbb39e51f2b67e3e67b9bcbbe5824
+  camararesp_1_SC_AAACertificateServices.out | SHA256: c4d8d2ee7e3946b3f2c11011e8fa8cd0365c47dd0f321cdcac84df55816ab059
+  camararesp_1_SC_USERTrustRSAAAACA.out | SHA256: 81f7b4df0b1c1547418e6ae33e7fb08c14d5f7d184af2e07c28b9a322ec4aeeb
+  camararesp_1_SC_root.out | SHA256: b5211e680c537a2a58867e7b40e695827d79a0d2113a8325654e1f7f54d8a81f
+  camararesp_2_PC_default.out | SHA256: 320b9ef63b73abb1b73d8b5e846f10571b6fbb39e51f2b67e3e67b9bcbbe5824
+  camararesp_2_SC_CN=camararesp,OU=Root-Certificate,OU=camararespNode01Cell,OU=camararespNode01,O=IBM,C=US.out | SHA256: 7d3af0bb30a0b6f8e5f0bef9f39c1672ca1f6ff6a53b872f7688e18bfd26091e
+  camararesp_3_SC_root.out | SHA256: b5211e680c537a2a58867e7b40e695827d79a0d2113a8325654e1f7f54d8a81f
+  camararesp_4_PC_scombanc.out | SHA256: f175804246ab0a46f8d9e3b97597866728bcb97ce0478ef6109e2932d84ff1bf
+  camararesp_4_SC_AAACertificateServices.out | SHA256: c4d8d2ee7e3946b3f2c11011e8fa8cd0365c47dd0f321cdcac84df55816ab059
+  camararesp_4_SC_Autoridad-Certificadora-ADSS-Raiz-de-Certinet-S-A.out | SHA256: e5ccf42c137b0aa46717b04444870e2034ee3d87fb3e03d270593ec12033710f
+  camararesp_4_SC_Autoridad-Certificadora-Intermedia-de-CertiNet-S-A.out | SHA256: cefb5ecc060e5c2d4112e6a2e1b412f438e5a427218ea831c6fe3a94562b7b0f
+  camararesp_4_SC_CertiSur-Class-2-CA---G3-(20250817).out | SHA256: 4d36a65dfe72382d51b4b1a18a70c4c98b2dcd53486f9be8dae97afaf92c8feb
+  camararesp_4_SC_DigiCert-Global-G2-TLS-RSA-SHA256-2020-CA1.out | SHA256: a736e13db9d33eca65c2e65be5b7657951b3a41bec5a8ac7d09ca47f4685a729
+  camararesp_4_SC_DigiCert-Global-Root-CA.out | SHA256: d7ea9de67e04c3b12174c7a94ea948407896f15346952857a215ae10daa155f1
+  camararesp_4_SC_DigiCert-Global-Root-G2.out | SHA256: 2e83859ffdfe8aee5b1d470ce5b59183b4c4077cd954cb6ca05d8ddb226cb778
+  camararesp_4_SC_DigiCert-TLS-RSA-SHA256-2020-CA1.out | SHA256: 489d47c689887ad887fb2e334c85179eab38c3468acc19947603aaa1e2fc8186
+  camararesp_4_SC_DigiCert-TLS-RSA-SHA256-2020.out | SHA256: b437814d515909344e8775e9f00fab17693e0bdc38ecbc8bad3b41bcf84a054a
+  camararesp_4_SC_OU=Class-3-Public-Primary-Certification-Authority,-O=VeriSign,-Inc.,-C=US.out | SHA256: 1d3c2d76b44883367cb5284101bcd755b11356496899fd5fd6e43a5a7adf2860
+  camararesp_4_SC_SectigoRSAOrganizationValidationSecureServerCA.out | SHA256: 308f703848a3d10a1b5f6830e47b6f40706664857c823fd713f0bf200133c460
+  camararesp_4_SC_USERTrustRSAAAACA.out | SHA256: 81f7b4df0b1c1547418e6ae33e7fb08c14d5f7d184af2e07c28b9a322ec4aeeb
+  camararesp_4_SC_VeriSign-Class-2-Public-Primary-Certification-Authority---G3-(20360716).out | SHA256: be3b30ad2cf437252d3a5afdc18bee8e0e707c0edad4118a3ce12792959a531e
+  camararesp_4_SC_root.out | SHA256: b39ffaac2efdc21ee08e048d730a1ad1fd4c4bb4f9eb4645ae99adc37ca6c564
+  camararesp_5_PC_default.out | SHA256: 320b9ef63b73abb1b73d8b5e846f10571b6fbb39e51f2b67e3e67b9bcbbe5824
+  camararesp_5_SC_AAACertificateServices.out | SHA256: c4d8d2ee7e3946b3f2c11011e8fa8cd0365c47dd0f321cdcac84df55816ab059
+  camararesp_5_SC_USERTrustRSAAAACA.out | SHA256: 81f7b4df0b1c1547418e6ae33e7fb08c14d5f7d184af2e07c28b9a322ec4aeeb
+  camararesp_5_SC_root.out | SHA256: b5211e680c537a2a58867e7b40e695827d79a0d2113a8325654e1f7f54d8a81f
+  camararesp_6_PC_default.out | SHA256: 320b9ef63b73abb1b73d8b5e846f10571b6fbb39e51f2b67e3e67b9bcbbe5824
+  camararesp_6_SC_AAACertificateServices.out | SHA256: c4d8d2ee7e3946b3f2c11011e8fa8cd0365c47dd0f321cdcac84df55816ab059
+  camararesp_6_SC_USERTrustRSAAAACA.out | SHA256: 81f7b4df0b1c1547418e6ae33e7fb08c14d5f7d184af2e07c28b9a322ec4aeeb
+  camararesp_6_SC_root.out | SHA256: b5211e680c537a2a58867e7b40e695827d79a0d2113a8325654e1f7f54d8a81f
+  camararesp_DSkeystore_out | SHA256: 665c6d91d087271995752dae1f81845c36814673183bf5dfab64d162db434c59
+  camararesp_PlugWas.sha256 | SHA256: e3884ddd0691d6038bc72b61319b299ef67f23bf1aafedb41e0649671575c06e
+  camararesp_SSLkeystore_out | SHA256: 4799da82f9e1dc7fd2e80b80c1b6f502b321523c061e822cd1c44d5b06df401b
+  camararesp_aipackeystore_out | SHA256: 673343092263e16a723e6aa029a99954c2a8008a1fa625e041e703e52fdc1da6
+
+Archivos faltantes en origen (1):
+  [FALTA] camararesp_1_SC_AAACertificateService.out

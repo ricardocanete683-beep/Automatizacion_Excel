@@ -1,0 +1,125 @@
+Label : scombanc
+Key Size : 2048
+Version : X509 V3
+Serial : 5bed66e9efe418dbabbacd1d27fb8179
+Issuer : "CN=Sectigo RSA Organization Validation Secure Server CA,O=Sectigo Limited,L=Salford,ST=Greater Manchester,C=GB"
+Subject : "CN=*.scombanc.cl,O=Combanc SA,ST=Regi\c3\b3n Metropolitana de Santiago,C=CL"
+Not Before : February 18, 2025 8:00:00 PM GMT-04:00
+
+Not After : March 22, 2026 7:59:59 PM GMT-04:00
+
+Public Key
+    30 82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01
+    01 05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01
+    00 C2 9B FC 4C 03 6D 0A E6 F8 02 A6 89 2D 8E B7
+    5B D6 93 05 2E 39 2C 87 82 22 A4 30 3D 36 66 7E
+    8C B1 4D CD B3 C4 8E D5 82 36 05 34 56 47 0F 5F
+    C8 39 B6 7E 83 D4 D2 8F 5B DB B1 38 1B AE 21 5B
+    70 F0 59 F8 D8 56 9B E8 C2 CC 50 38 BD 9F 82 A8
+    FA 18 E7 95 98 29 7A 18 68 02 0F D6 F7 BB 89 27
+    F9 93 AC D9 9D 08 9E F5 88 72 C8 74 83 29 BF 4B
+    72 19 32 80 24 A5 AB 8C 1D DC 70 EF 88 CE 7C 80
+    E1 28 D7 74 96 C4 BB 4A E0 A9 C0 91 56 BB ED C9
+    43 BC 38 E0 6D 81 37 94 38 4B 7E 82 3C 41 4C 46
+    8F 81 10 8C 76 C5 0F 53 72 4B 07 91 D0 9C F5 25
+    79 07 F9 6C DE 84 89 58 7E 0B A7 F5 28 7F 7F A9
+    F2 05 81 DF 1B 8C CF 1D AC 8B 40 9E 19 55 7C 28
+    B4 16 24 C9 4F DD 8F 0B 24 D8 3E 4D 95 77 21 FC
+    FE 8E 4F B4 F5 3D 5C DC 7D 19 95 11 E6 24 C8 90
+    E6 E3 FA EC F8 9E 81 9F AD F6 18 53 14 05 32 6F
+    95 02 03 01 00 01
+Public Key Type : RSA (1.2.840.113549.1.1.1)
+Fingerprint : SHA1 : 
+    B0 9D 83 98 B6 14 AF 8D E5 66 EC 15 9F B4 7B D4
+    CD 52 CD 12
+Fingerprint : MD5 : 
+    3B 90 AB DD 1B 50 9E 4F 67 3E CE 14 8D FA BC 27
+Fingerprint : SHA256 : 
+    FE B3 2B 96 8F FD CB 34 13 DF 6F 95 D3 54 D7 46
+    B2 38 AB 55 31 23 89 99 A3 8D 21 82 80 E4 B8 FF
+Fingerprint : HPKP : 
+    Bil9cgc0FG7IlFjxCQC6rpCJS1wITlK9lLD0I8Z7MyE=
+Extensions
+    AuthorityKeyIdentifier
+      keyIdentifier:
+    17 D9 D6 25 27 67 F9 31 C2 49 43 D9 30 36 44 8C
+    6C A9 4F EB
+      authorityIdentifier:
+      authorityCertSerialNumber:
+    SubjectKeyIdentifier
+      keyIdentifier:
+    53 30 BD A3 FF 0A E5 D2 24 5D 7D A1 6A A2 1D B6
+    82 52 28 3F
+    key usage: digitalSignature, keyEncipherment
+        critical
+    basicConstraints
+        ca = false
+        critical
+    eku
+        serverAuth
+        clientAuth
+    certificatePolicies
+        1.3.6.1.4.1.6449.1.2.1.3.4
+        2.23.140.1.2.2
+    CRLDistributionPoints
+      fullname:
+      uniformResourceID:GSKASNObject: OBJECT(tag=22, class=0) value: -----BEGIN HEX-----
+16 49 68 74 74 70 3A 2F 2F 63 72 6C 2E 73 65 63     .Ihttp://crl.sec
+74 69 67 6F 2E 63 6F 6D 2F 53 65 63 74 69 67 6F     tigo.com/Sectigo
+52 53 41 4F 72 67 61 6E 69 7A 61 74 69 6F 6E 56     RSAOrganizationV
+61 6C 69 64 61 74 69 6F 6E 53 65 63 75 72 65 53     alidationSecureS
+65 72 76 65 72 43 41 2E 63 72 6C                    erverCA.crl
+-----END HEX-----
+
+    AuthorityInfoAccess
+    PKIX_AD_CA_Issuer (1.3.6.1.5.5.7.48.2)
+      accessLocation:uniformResourceID: http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt
+    PKIX_AD_OCSP (1.3.6.1.5.5.7.48.1)
+      accessLocation:uniformResourceID: http://ocsp.sectigo.com
+    subjectAlternativeName
+        dNSName: *.scombanc.cl
+        dNSName: scombanc.cl
+     (1.3.6.1.4.1.11129.2.4.2)
+        Value
+    04 82 01 69 01 67 00 76 00 96 97 64 BF 55 58 97
+    AD F7 43 87 68 37 08 42 77 E9 F0 3A D5 F6 A4 F3
+    36 6E 46 A4 3F 0F CA A9 C6 00 00 01 95 1E 20 14
+    F1 00 00 04 03 00 47 30 45 02 21 00 D1 C0 A7 13
+    DB DD FE DC 4F 1F 0B 09 27 8F C1 C2 FC 45 A2 3A
+    11 F9 92 D3 0B 5C 4A 54 54 7A 9C 86 02 20 67 05
+    36 7F 49 C6 32 3C DC C2 C0 1E 29 3A 70 F4 70 3A
+    A4 EB 07 F9 9B 79 70 1C CC 5D 56 E1 B8 1E 00 75
+    00 19 86 D4 C7 28 AA 6F FE BA 03 6F 78 2A 4D 01
+    91 AA CE 2D 72 31 0F AE CE 5D 70 41 2D 25 4C C7
+    D4 00 00 01 95 1E 20 14 88 00 00 04 03 00 46 30
+    44 02 20 17 43 F2 97 28 BF AA BD C4 E9 54 DC 36
+    31 A8 CC 6A 54 40 65 AF 76 0B F5 18 C1 AD 9A 62
+    FB 08 D0 02 20 7C C9 46 40 7F 5B 04 C0 C4 C5 5E
+    60 B6 4C 01 E7 AF D7 A5 50 3F 8E 79 68 77 A6 02
+    58 2C 24 5F 72 00 76 00 CB 38 F7 15 89 7C 84 A1
+    44 5F 5B C1 DD FB C9 6E F2 9A 59 CD 47 0A 69 05
+    85 B0 CB 14 C3 14 58 E7 00 00 01 95 1E 20 15 7B
+    00 00 04 03 00 47 30 45 02 21 00 F6 6D 72 F0 21
+    08 7F 55 73 96 51 B9 E7 C4 0B 3B CA 1D 8A 92 BE
+    88 72 3C 5B 50 2C 55 FB E2 30 E5 02 20 48 25 0B
+    FC 6E CB A9 81 76 A5 B7 37 CF AD 00 B3 94 56 D9
+    ED E3 9A 98 02 75 59 06 16 E3 09 4B C9
+Signature Algorithm : SHA256WithRSASignature (1.2.840.113549.1.1.11)
+Value
+    90 91 6E 1B 57 AB E9 FE 14 AA B9 22 8D 6E E0 22
+    0B A2 5C 7E D9 C4 EA 38 7E B1 F8 B3 41 1D 6B 3E
+    09 A3 1F BF D2 62 39 91 2C 56 AC 13 20 D2 AF B8
+    59 6D EE 70 78 D3 66 92 ED A5 65 74 89 D1 C1 C9
+    19 76 90 B4 DC B9 46 8E 0E F6 10 D2 99 CC C3 F0
+    17 8C DF A5 25 ED 31 5B 61 3F D6 FB 00 D8 93 C6
+    E5 5B 93 9E A0 95 14 55 C4 EE 76 97 2E 7D D4 C0
+    E9 BD F9 DF 46 3C 9A DE 09 DA BF 55 4C 26 08 39
+    35 4C 0D 7D 28 A8 29 67 2F 6D 4B 18 67 47 82 F0
+    FA 55 33 80 3C 71 A5 7A 1D C6 04 31 4B 4F 6F FB
+    F4 8B 41 48 AB E1 9D 1F 4D DF F9 02 8C 2E 66 75
+    1F D0 F3 62 56 7F 95 B3 0F DC 20 7B E0 F1 79 7D
+    70 26 DF 10 10 0D E8 73 33 AB 6A 85 0D B5 E4 FA
+    3D 7C E3 62 4A BE FB 61 82 7D 24 0E 13 88 3A 87
+    11 27 EC E9 27 19 53 35 0C C5 C1 DA 34 6A 10 9E
+    BA 2B 64 C2 A7 38 14 39 0D BB AE B0 4F 46 5A BA
+Trust Status : Enabled

@@ -1,0 +1,46 @@
+INVENTARIO CAMARATEST - 24/02/2026 08:55:59
+============================================================
+
+Archivos en destino (37):
+  camaratest_1_PC_default.out | SHA256: f456f09fe431a49fba4f7ae97e2832aef41ffd01b5bf69392e6fbab80956c018
+  camaratest_1_SC_AAACertificateServices.out | SHA256: c4d8d2ee7e3946b3f2c11011e8fa8cd0365c47dd0f321cdcac84df55816ab059
+  camaratest_1_SC_USERTrustRSAAAACA.out | SHA256: 81f7b4df0b1c1547418e6ae33e7fb08c14d5f7d184af2e07c28b9a322ec4aeeb
+  camaratest_1_SC_root.out | SHA256: bf66921116e3a265eeb5f9744f8578f7600c4ad8cf186ea1a8e02c266fceca30
+  camaratest_2_PC_default.out | SHA256: f456f09fe431a49fba4f7ae97e2832aef41ffd01b5bf69392e6fbab80956c018
+  camaratest_2_SC_CN=camaratest,OU=Root-Certificate,OU=camaratestNode01Cell,OU=camaratestNode01,O=IBM,C=US.out | SHA256: b0233addea18fac067719c709cf89b22132549726530703a0a2c20c28a13a311
+  camaratest_3_SC_root.out | SHA256: bf66921116e3a265eeb5f9744f8578f7600c4ad8cf186ea1a8e02c266fceca30
+  camaratest_4_PC_scombanc.out | SHA256: f175804246ab0a46f8d9e3b97597866728bcb97ce0478ef6109e2932d84ff1bf
+  camaratest_4_SC_AAACertificateServices.out | SHA256: c4d8d2ee7e3946b3f2c11011e8fa8cd0365c47dd0f321cdcac84df55816ab059
+  camaratest_4_SC_Autoridad-Certificadora-ADSS-Raiz-de-Certinet-S-A-(20440617).out | SHA256: 87a52fcc50a6d5a089f5522650b0a91d4e50cd451fcd43de68edac3e3067acf1
+  camaratest_4_SC_Autoridad-Certificadora-Intermedia-de-Certinet-S-A-(20390617).out | SHA256: 4673f769958a1d2ce29542f5b8a84c73521959e1e76403aa9810dafeac18e30e
+  camaratest_4_SC_CertiSur-Class-2-CA---G3-(20250817).out | SHA256: 4d36a65dfe72382d51b4b1a18a70c4c98b2dcd53486f9be8dae97afaf92c8feb
+  camaratest_4_SC_Certinet-S-A-Firma-Electronica-Avanzada-(20340617).out | SHA256: 10660a34b0119c919a568cf3abaeaa349baa183011e20623091e9fa08d05dc33
+  camaratest_4_SC_DigiCert-Global-G2-TLS-RSA-SHA256-2020-CA1.out | SHA256: a736e13db9d33eca65c2e65be5b7657951b3a41bec5a8ac7d09ca47f4685a729
+  camaratest_4_SC_DigiCert-Global-Root-CA.out | SHA256: eb98562ddfc7f07a85978f761b14efd803db6852dad4343742ab5decf695e79e
+  camaratest_4_SC_DigiCert-Global-Root-G2.out | SHA256: 2e83859ffdfe8aee5b1d470ce5b59183b4c4077cd954cb6ca05d8ddb226cb778
+  camaratest_4_SC_DigiCert-TLS-RSA-SHA256-2020-CA1.out | SHA256: 489d47c689887ad887fb2e334c85179eab38c3468acc19947603aaa1e2fc8186
+  camaratest_4_SC_DigiCert-TLS-RSA-SHA256-2020.out | SHA256: b437814d515909344e8775e9f00fab17693e0bdc38ecbc8bad3b41bcf84a054a
+  camaratest_4_SC_DigiCertGlobalRootCA.out | SHA256: eb98562ddfc7f07a85978f761b14efd803db6852dad4343742ab5decf695e79e
+  camaratest_4_SC_OU=Class-3-Public-Primary-Certification-Authority,-O=VeriSign,-Inc.,-C=US.out | SHA256: 1d3c2d76b44883367cb5284101bcd755b11356496899fd5fd6e43a5a7adf2860
+  camaratest_4_SC_SectigoRSAOrganizationValidationSecureServerCA.out | SHA256: 308f703848a3d10a1b5f6830e47b6f40706664857c823fd713f0bf200133c460
+  camaratest_4_SC_USERTrustRSAAAACA.out | SHA256: 81f7b4df0b1c1547418e6ae33e7fb08c14d5f7d184af2e07c28b9a322ec4aeeb
+  camaratest_4_SC_VeriSign-Class-2-Public-Primary-Certification-Authority---G3-(20360716).out | SHA256: be3b30ad2cf437252d3a5afdc18bee8e0e707c0edad4118a3ce12792959a531e
+  camaratest_4_SC_VeriSignClass3PublicPrimaryCertificationAuthority-G5.out | SHA256: 789301d5437c46ecda7255045ecfba045b453905a7b870e01b7aff2cd6f83c94
+  camaratest_4_SC_root.out | SHA256: 13e6c9729f3f2216036638ed7eaaa7067d513092071715c61ed8f96a0a892099
+  camaratest_5_PC_default.out | SHA256: f456f09fe431a49fba4f7ae97e2832aef41ffd01b5bf69392e6fbab80956c018
+  camaratest_5_SC_AAACertificateServices.out | SHA256: c4d8d2ee7e3946b3f2c11011e8fa8cd0365c47dd0f321cdcac84df55816ab059
+  camaratest_5_SC_USERTrustRSAAAACA.out | SHA256: 81f7b4df0b1c1547418e6ae33e7fb08c14d5f7d184af2e07c28b9a322ec4aeeb
+  camaratest_5_SC_root.out | SHA256: bf66921116e3a265eeb5f9744f8578f7600c4ad8cf186ea1a8e02c266fceca30
+  camaratest_6_PC_default.out | SHA256: f456f09fe431a49fba4f7ae97e2832aef41ffd01b5bf69392e6fbab80956c018
+  camaratest_6_SC_AAACertificateServices.out | SHA256: c4d8d2ee7e3946b3f2c11011e8fa8cd0365c47dd0f321cdcac84df55816ab059
+  camaratest_6_SC_USERTrustRSAAAACA.out | SHA256: 81f7b4df0b1c1547418e6ae33e7fb08c14d5f7d184af2e07c28b9a322ec4aeeb
+  camaratest_6_SC_root.out | SHA256: bf66921116e3a265eeb5f9744f8578f7600c4ad8cf186ea1a8e02c266fceca30
+  camaratest_DSkeystore_out | SHA256: 665c6d91d087271995752dae1f81845c36814673183bf5dfab64d162db434c59
+  camaratest_PlugWas.sha256 | SHA256: 81a129be2e624322410726dd30ba3538c6edb60c10b06d8e09f60bc15d9a44ee
+  camaratest_SSLkeystore_out | SHA256: 74ed52c0559978b6770ea30a6e012a61d4239402078efa0b0044b661287bc4e4
+  camaratest_aipackeystore_out | SHA256: 673343092263e16a723e6aa029a99954c2a8008a1fa625e041e703e52fdc1da6
+
+Archivos faltantes en origen (3):
+  [FALTA] camaratest_1_SC_AAACertificateService.out
+  [FALTA] camaratest_4_SC_Autoridad-Certificadora-ADSS-Raiz-de-Certinet-S-A.out
+  [FALTA] camaratest_4_SC_Autoridad-Certificadora-Intermedia-de-CertiNet-S-A.out

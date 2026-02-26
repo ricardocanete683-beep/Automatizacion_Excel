@@ -1,0 +1,142 @@
+[2026-02-24 08:55:59] [INFO] ============================================================
+[2026-02-24 08:55:59] [INFO]   STAGING MULTI-AMBIENTE v3.0 - INICIO (24/02/2026)
+[2026-02-24 08:55:59] [INFO] ============================================================
+[2026-02-24 08:55:59] [INFO] Lista maestra cargada: 108 archivos autorizados
+[2026-02-24 08:55:59] [INFO] 
+>>> AMBIENTE: CAMARAPROD
+[2026-02-24 08:55:59] [INFO]     Archivos autorizados para este ambiente: 33
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_1_PC_default.out — copiado (SHA256: 02f279fe405ce224...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_1_SC_AAACertificateService.out — copiado (SHA256: 0752c3d9da26dca6...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_1_SC_USERTrustRSAAAACA.out — copiado (SHA256: 81f7b4df0b1c1547...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_1_SC_root.out — copiado (SHA256: 648f7ab8f9504bbf...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_2_PC_default.out — copiado (SHA256: 02f279fe405ce224...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_2_SC_CN=camaraprod,OU=Root-Certificate,OU=camaraprodNode01Cell,OU=camaraprodNode01,O=IBM,C=US.out — copiado (SHA256: 6409a95e7bbcc356...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_3_SC_root.out — copiado (SHA256: 648f7ab8f9504bbf...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_4_PC_scombanc.out — copiado (SHA256: f175804246ab0a46...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_4_SC_AAACertificateServices.out — copiado (SHA256: c4d8d2ee7e3946b3...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_4_SC_Autoridad-Certificadora-ADSS-Raiz-de-Certinet-S-A.out — copiado (SHA256: e5ccf42c137b0aa4...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_4_SC_Autoridad-Certificadora-Intermedia-de-CertiNet-S-A.out — copiado (SHA256: cefb5ecc060e5c2d...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_4_SC_DigiCert-Global-G2-TLS-RSA-SHA256-2020-CA1.out — copiado (SHA256: a736e13db9d33eca...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_4_SC_DigiCert-Global-Root-CA.out — copiado (SHA256: d7ea9de67e04c3b1...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_4_SC_DigiCert-Global-Root-G2.out — copiado (SHA256: 2e83859ffdfe8aee...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_4_SC_DigiCert-TLS-RSA-SHA256-2020-CA1.out — copiado (SHA256: 489d47c689887ad8...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_4_SC_DigiCert-TLS-RSA-SHA256-2020.out — copiado (SHA256: b437814d51590934...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_4_SC_OU=Class-3-Public-Primary-Certification-Authority,-O=VeriSign,-Inc.,-C=US.out — copiado (SHA256: 1d3c2d76b4488336...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_4_SC_SectigoRSAOrganizationValidationSecureServerCA.out — copiado (SHA256: 308f703848a3d10a...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_4_SC_USERTrustRSAAAACA.out — copiado (SHA256: 81f7b4df0b1c1547...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_4_SC_VeriSign-Class-2-Public-Primary-Certification-Authority---G3-(20360716).out — copiado (SHA256: be3b30ad2cf43725...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_4_SC_root.out — copiado (SHA256: 648f7ab8f9504bbf...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_5_PC_default.out — copiado (SHA256: 02f279fe405ce224...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_5_SC_AAACertificateService.out — copiado (SHA256: 0752c3d9da26dca6...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_5_SC_USERTrustRSAAAACA.out — copiado (SHA256: 81f7b4df0b1c1547...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_5_SC_root.out — copiado (SHA256: 648f7ab8f9504bbf...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_6_PC_default.out — copiado (SHA256: 02f279fe405ce224...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_6_SC_AAACertificateService.out — copiado (SHA256: 0752c3d9da26dca6...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_6_SC_USERTrustRSAAAACA.out — copiado (SHA256: 81f7b4df0b1c1547...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_6_SC_root.out — copiado (SHA256: 648f7ab8f9504bbf...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_DSkeystore_out — copiado (SHA256: 665c6d91d0872719...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_PlugWas.sha256 — copiado (SHA256: 4a3f07213e25800e...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_SSLkeystore_out — copiado (SHA256: 4799da82f9e1dc7f...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaraprod_aipackeystore_out — copiado (SHA256: 673343092263e16a...)
+[2026-02-24 08:55:59] [INFO]     Copiados: 33 | Sin cambios: 0 | Faltantes: 0 | Nuevos: 0
+[2026-02-24 08:55:59] [INFO] 
+>>> AMBIENTE: CAMARARESP
+[2026-02-24 08:55:59] [INFO]     Archivos autorizados para este ambiente: 35
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_1_PC_default.out — copiado (SHA256: 320b9ef63b73abb1...)
+[2026-02-24 08:55:59] [WARN]     [FALTA] camararesp_1_SC_AAACertificateService.out — no existe en origen
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_1_SC_AAACertificateServices.out — copiado (SHA256: c4d8d2ee7e3946b3...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_1_SC_USERTrustRSAAAACA.out — copiado (SHA256: 81f7b4df0b1c1547...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_1_SC_root.out — copiado (SHA256: b5211e680c537a2a...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_2_PC_default.out — copiado (SHA256: 320b9ef63b73abb1...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_2_SC_CN=camararesp,OU=Root-Certificate,OU=camararespNode01Cell,OU=camararespNode01,O=IBM,C=US.out — copiado (SHA256: 7d3af0bb30a0b6f8...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_3_SC_root.out — copiado (SHA256: b5211e680c537a2a...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_PC_scombanc.out — copiado (SHA256: f175804246ab0a46...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_SC_AAACertificateServices.out — copiado (SHA256: c4d8d2ee7e3946b3...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_SC_Autoridad-Certificadora-ADSS-Raiz-de-Certinet-S-A.out — copiado (SHA256: e5ccf42c137b0aa4...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_SC_Autoridad-Certificadora-Intermedia-de-CertiNet-S-A.out — copiado (SHA256: cefb5ecc060e5c2d...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_SC_CertiSur-Class-2-CA---G3-(20250817).out — copiado (SHA256: 4d36a65dfe72382d...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_SC_DigiCert-Global-G2-TLS-RSA-SHA256-2020-CA1.out — copiado (SHA256: a736e13db9d33eca...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_SC_DigiCert-Global-Root-CA.out — copiado (SHA256: d7ea9de67e04c3b1...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_SC_DigiCert-Global-Root-G2.out — copiado (SHA256: 2e83859ffdfe8aee...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_SC_DigiCert-TLS-RSA-SHA256-2020-CA1.out — copiado (SHA256: 489d47c689887ad8...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_SC_DigiCert-TLS-RSA-SHA256-2020.out — copiado (SHA256: b437814d51590934...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_SC_OU=Class-3-Public-Primary-Certification-Authority,-O=VeriSign,-Inc.,-C=US.out — copiado (SHA256: 1d3c2d76b4488336...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_SC_SectigoRSAOrganizationValidationSecureServerCA.out — copiado (SHA256: 308f703848a3d10a...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_SC_USERTrustRSAAAACA.out — copiado (SHA256: 81f7b4df0b1c1547...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_SC_VeriSign-Class-2-Public-Primary-Certification-Authority---G3-(20360716).out — copiado (SHA256: be3b30ad2cf43725...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_4_SC_root.out — copiado (SHA256: b39ffaac2efdc21e...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_5_PC_default.out — copiado (SHA256: 320b9ef63b73abb1...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_5_SC_AAACertificateServices.out — copiado (SHA256: c4d8d2ee7e3946b3...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_5_SC_USERTrustRSAAAACA.out — copiado (SHA256: 81f7b4df0b1c1547...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_5_SC_root.out — copiado (SHA256: b5211e680c537a2a...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_6_PC_default.out — copiado (SHA256: 320b9ef63b73abb1...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_6_SC_AAACertificateServices.out — copiado (SHA256: c4d8d2ee7e3946b3...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_6_SC_USERTrustRSAAAACA.out — copiado (SHA256: 81f7b4df0b1c1547...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_6_SC_root.out — copiado (SHA256: b5211e680c537a2a...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_DSkeystore_out — copiado (SHA256: 665c6d91d0872719...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_PlugWas.sha256 — copiado (SHA256: e3884ddd0691d603...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_SSLkeystore_out — copiado (SHA256: 4799da82f9e1dc7f...)
+[2026-02-24 08:55:59] [INFO]     [OK] camararesp_aipackeystore_out — copiado (SHA256: 673343092263e16a...)
+[2026-02-24 08:55:59] [INFO]     Copiados: 34 | Sin cambios: 0 | Faltantes: 1 | Nuevos: 0
+[2026-02-24 08:55:59] [INFO] 
+>>> AMBIENTE: CAMARATEST
+[2026-02-24 08:55:59] [INFO]     Archivos autorizados para este ambiente: 40
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_1_PC_default.out — copiado (SHA256: f456f09fe431a49f...)
+[2026-02-24 08:55:59] [WARN]     [FALTA] camaratest_1_SC_AAACertificateService.out — no existe en origen
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_1_SC_AAACertificateServices.out — copiado (SHA256: c4d8d2ee7e3946b3...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_1_SC_USERTrustRSAAAACA.out — copiado (SHA256: 81f7b4df0b1c1547...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_1_SC_root.out — copiado (SHA256: bf66921116e3a265...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_2_PC_default.out — copiado (SHA256: f456f09fe431a49f...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_2_SC_CN=camaratest,OU=Root-Certificate,OU=camaratestNode01Cell,OU=camaratestNode01,O=IBM,C=US.out — copiado (SHA256: b0233addea18fac0...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_3_SC_root.out — copiado (SHA256: bf66921116e3a265...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_PC_scombanc.out — copiado (SHA256: f175804246ab0a46...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_AAACertificateServices.out — copiado (SHA256: c4d8d2ee7e3946b3...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_Autoridad-Certificadora-ADSS-Raiz-de-Certinet-S-A-(20440617).out — copiado (SHA256: 87a52fcc50a6d5a0...)
+[2026-02-24 08:55:59] [WARN]     [FALTA] camaratest_4_SC_Autoridad-Certificadora-ADSS-Raiz-de-Certinet-S-A.out — no existe en origen
+[2026-02-24 08:55:59] [WARN]     [FALTA] camaratest_4_SC_Autoridad-Certificadora-Intermedia-de-CertiNet-S-A.out — no existe en origen
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_Autoridad-Certificadora-Intermedia-de-Certinet-S-A-(20390617).out — copiado (SHA256: 4673f769958a1d2c...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_CertiSur-Class-2-CA---G3-(20250817).out — copiado (SHA256: 4d36a65dfe72382d...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_Certinet-S-A-Firma-Electronica-Avanzada-(20340617).out — copiado (SHA256: 10660a34b0119c91...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_DigiCert-Global-G2-TLS-RSA-SHA256-2020-CA1.out — copiado (SHA256: a736e13db9d33eca...)
+[2026-02-24 08:55:59] [INFO]     [~] camaratest_4_SC_DigiCert-Global-Root-CA.out -> encontrado como 'camaratest_4_SC_DigiCertGlobalRootCA.out' (nombre diferente)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_DigiCert-Global-Root-CA.out — copiado (SHA256: eb98562ddfc7f07a...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_DigiCert-Global-Root-G2.out — copiado (SHA256: 2e83859ffdfe8aee...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_DigiCert-TLS-RSA-SHA256-2020-CA1.out — copiado (SHA256: 489d47c689887ad8...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_DigiCert-TLS-RSA-SHA256-2020.out — copiado (SHA256: b437814d51590934...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_DigiCertGlobalRootCA.out — copiado (SHA256: eb98562ddfc7f07a...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_OU=Class-3-Public-Primary-Certification-Authority,-O=VeriSign,-Inc.,-C=US.out — copiado (SHA256: 1d3c2d76b4488336...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_SectigoRSAOrganizationValidationSecureServerCA.out — copiado (SHA256: 308f703848a3d10a...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_USERTrustRSAAAACA.out — copiado (SHA256: 81f7b4df0b1c1547...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_VeriSign-Class-2-Public-Primary-Certification-Authority---G3-(20360716).out — copiado (SHA256: be3b30ad2cf43725...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_VeriSignClass3PublicPrimaryCertificationAuthority-G5.out — copiado (SHA256: 789301d5437c46ec...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_4_SC_root.out — copiado (SHA256: 13e6c9729f3f2216...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_5_PC_default.out — copiado (SHA256: f456f09fe431a49f...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_5_SC_AAACertificateServices.out — copiado (SHA256: c4d8d2ee7e3946b3...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_5_SC_USERTrustRSAAAACA.out — copiado (SHA256: 81f7b4df0b1c1547...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_5_SC_root.out — copiado (SHA256: bf66921116e3a265...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_6_PC_default.out — copiado (SHA256: f456f09fe431a49f...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_6_SC_AAACertificateServices.out — copiado (SHA256: c4d8d2ee7e3946b3...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_6_SC_USERTrustRSAAAACA.out — copiado (SHA256: 81f7b4df0b1c1547...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_6_SC_root.out — copiado (SHA256: bf66921116e3a265...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_DSkeystore_out — copiado (SHA256: 665c6d91d0872719...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_PlugWas.sha256 — copiado (SHA256: 81a129be2e624322...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_SSLkeystore_out — copiado (SHA256: 74ed52c0559978b6...)
+[2026-02-24 08:55:59] [INFO]     [OK] camaratest_aipackeystore_out — copiado (SHA256: 673343092263e16a...)
+[2026-02-24 08:55:59] [INFO]     Copiados: 37 | Sin cambios: 0 | Faltantes: 3 | Nuevos: 0
+[2026-02-24 08:55:59] [INFO] 
+============================================================
+[2026-02-24 08:55:59] [INFO]   RESUMEN FINAL
+[2026-02-24 08:55:59] [INFO] ============================================================
+[2026-02-24 08:55:59] [INFO]   Archivos copiados:      104
+[2026-02-24 08:55:59] [INFO]   Sin cambios:            0
+[2026-02-24 08:55:59] [INFO]   Eliminados (obsoletos): 0
+[2026-02-24 08:55:59] [INFO]   No encontrados:         4
+[2026-02-24 08:55:59] [INFO]   Nuevos en lista:        0
+[2026-02-24 08:55:59] [INFO]   Errores:                0
+[2026-02-24 08:55:59] [INFO] 
+============================================================
+[2026-02-24 08:55:59] [INFO]   LANZANDO PROCESO DE AUDITORIA...
+[2026-02-24 08:55:59] [INFO] ============================================================
+[2026-02-24 08:56:03] [INFO] Auditoria completada exitosamente.
+[2026-02-24 08:56:03] [INFO] 
+>>> PROCESO COMPLETO <<<

@@ -1,0 +1,114 @@
+Label : SectigoRSAOrganizationValidationSecureServerCA
+Key Size : 2048
+Version : X509 V3
+Serial : 137d539caa7c31a9a433701968847a8d
+Issuer : "CN=USERTrust RSA Certification Authority,O=The USERTRUST Network,L=Jersey City,ST=New Jersey,C=US"
+Subject : "CN=Sectigo RSA Organization Validation Secure Server CA,O=Sectigo Limited,L=Salford,ST=Greater Manchester,C=GB"
+Not Before : November 1, 2018 8:00:00 PM GMT-04:00
+
+Not After : December 31, 2030 7:59:59 PM GMT-04:00
+
+Public Key
+    30 82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01
+    01 05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01
+    00 9C 93 02 46 45 4A 52 48 92 FC 57 8D F9 2D EA
+    53 BE B3 2C D5 D8 A8 A5 EC 5B 69 03 C0 1D 10 F6
+    59 33 DE FE 07 48 A8 E8 8C 7A 67 4A F1 F5 8D C3
+    37 66 D0 32 91 F7 C4 9D 04 60 C4 B5 4A E2 83 8B
+    A7 AE 26 D4 5D 3A 5E F8 D1 16 71 BB 8A BD 71 A2
+    7D C8 CE A2 60 24 B0 52 A0 3A 45 51 DE 78 93 6C
+    62 60 F1 E4 56 9C B7 3B F7 3C 55 D8 DF D5 7A 31
+    7C 35 7F 12 51 70 E1 2C BE 04 AC CB FA 4F E1 7C
+    65 6A C0 40 A7 D9 7C A5 63 84 19 E1 F7 CA EF AA
+    B4 E8 58 5A D9 99 E3 26 DF 8E 12 B2 B8 DC 33 B2
+    36 DA 14 1D 96 58 42 40 6E 0B 22 85 1C 51 22 AE
+    C4 C8 06 45 6D 92 E6 67 B7 19 23 E4 D8 36 6B 85
+    D0 7F C7 52 E3 CF B0 75 01 E0 89 B4 A8 BF 8A 36
+    4E A3 E0 6C EB 84 41 CE A5 2F 48 22 13 97 50 62
+    45 1E 09 A5 CC 9F 6C 57 70 40 06 DB 20 E8 1B D6
+    F3 93 8B A7 32 9E B7 44 15 09 D7 AF FD 7C 01 1C
+    DB 02 03 01 00 01
+Public Key Type : RSA (1.2.840.113549.1.1.1)
+Fingerprint : SHA1 : 
+    40 CE F3 04 6C 91 6E D7 AE 55 7F 60 E7 68 42 82
+    8B 51 DE 53
+Fingerprint : MD5 : 
+    88 6E A7 8B 53 0E 0F D5 BD A4 E1 25 27 AB 6A 2C
+Fingerprint : SHA256 : 
+    72 A3 4A C2 B4 24 AE D3 F6 B0 B0 47 55 B8 8C C0
+    27 DC CC 80 6F DD B2 2B 4C D7 C4 77 73 97 3E C0
+Fingerprint : HPKP : 
+    RkhWTcfJAQN/YxOR12VkPo+PhmIoSfWd/JVkg44einY=
+Extensions
+    AuthorityKeyIdentifier
+      keyIdentifier:
+    53 79 BF 5A AA 2B 4A CF 54 80 E1 D8 9B C0 9D F2
+    B2 03 66 CB
+      authorityIdentifier:
+      authorityCertSerialNumber:
+    SubjectKeyIdentifier
+      keyIdentifier:
+    17 D9 D6 25 27 67 F9 31 C2 49 43 D9 30 36 44 8C
+    6C A9 4F EB
+    key usage: digitalSignature, keyCertSign, cRLSign
+        critical
+    basicConstraints
+        ca = true
+        pathLen = 0
+        critical
+    eku
+        serverAuth
+        clientAuth
+    certificatePolicies
+        any
+        2.23.140.1.2.2
+    CRLDistributionPoints
+      fullname:
+      uniformResourceID:GSKASNObject: OBJECT(tag=22, class=0) value: -----BEGIN HEX-----
+16 3F 68 74 74 70 3A 2F 2F 63 72 6C 2E 75 73 65     .?http://crl.use
+72 74 72 75 73 74 2E 63 6F 6D 2F 55 53 45 52 54     rtrust.com/USERT
+72 75 73 74 52 53 41 43 65 72 74 69 66 69 63 61     rustRSACertifica
+74 69 6F 6E 41 75 74 68 6F 72 69 74 79 2E 63 72     tionAuthority.cr
+6C                                                  l
+-----END HEX-----
+
+    AuthorityInfoAccess
+    PKIX_AD_CA_Issuer (1.3.6.1.5.5.7.48.2)
+      accessLocation:uniformResourceID: http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
+    PKIX_AD_OCSP (1.3.6.1.5.5.7.48.1)
+      accessLocation:uniformResourceID: http://ocsp.usertrust.com
+Signature Algorithm : SHA384WithRSASignature (1.2.840.113549.1.1.12)
+Value
+    4E 13 40 96 C9 C3 E6 6E 5B C0 E3 BA F4 17 E1 AE
+    09 1F C9 BF CB 0C 25 16 F2 73 53 B3 76 1A B7 AB
+    48 06 D6 CD 00 7C 20 45 43 45 6C 16 5A 1B 13 61
+    D7 49 BA A4 02 A4 AC E8 CE CE 2D C9 2A 74 A3 DC
+    DE AE AB D0 68 36 F8 91 AF 3C 01 F7 77 D5 0B CF
+    97 AB EB 87 E7 15 A8 FA 30 5A 61 71 20 B1 C0 43
+    C4 B9 8F 6D 8A 31 EB 15 36 24 FB 62 D5 0B 9C 8F
+    E9 66 BD E6 61 51 97 93 B6 1D 87 BD B0 B5 6C FE
+    A6 11 29 06 61 34 31 30 3D 20 27 73 51 D0 DE 85
+    83 D3 77 39 20 46 96 DA A7 C6 5A 16 27 85 B2 CF
+    4E 0F 4E 8C 5C BE BE 38 00 F8 4B F9 72 7B D4 F2
+    7A D7 A2 29 85 D0 04 BA D3 42 2C 51 88 52 2E D1
+    3D 24 67 47 EC 55 CC 1B F4 CA 34 EA 26 C1 DE DD
+    C4 21 89 F6 BA 7B 32 1E 8E 96 5E 84 45 38 CF 80
+    AA 37 69 8B 60 17 74 15 48 91 9C 6D F0 4E A3 77
+    CA 1B 1C 48 FA F9 CF 49 E8 5F 4F 85 0A E2 8F 90
+    1B AB 70 4C 9A EB B7 A6 3F B4 AC 5D A4 5F CF E6
+    D8 8A 96 90 F7 4F 26 81 60 76 5D 0F 24 77 91 B3
+    2A 31 9F 16 5A B2 5D 8C 1C 29 AA 48 9C 8E 6F D3
+    78 40 70 DB 77 EC DD E3 D1 57 05 70 2D E6 49 98
+    88 05 84 62 05 70 56 76 86 39 4E D3 22 6F 1D FE
+    6D F1 0E B3 62 C4 3C CB C0 85 B9 61 1E BA E1 15
+    80 59 94 0C AE 05 BB 8C 7F 56 BE 1C D2 5A BF 97
+    F2 6A 4C B0 C6 70 76 B0 90 8D C1 0B 36 B9 11 D8
+    D6 28 5C EA 4F FE 24 B7 18 0A 9B 0C D0 C1 7C 5C
+    FB 69 BD CC A2 4D C6 90 BC A6 4D F2 B1 BA D6 9A
+    67 5B 96 02 52 D0 82 F9 C4 0A 5C 0D 28 E0 3F C8
+    FA 95 95 89 D5 A4 BE 49 6C 40 B2 3E A8 6B B8 D5
+    25 B2 C4 FE F1 D3 D7 E7 D6 DC 43 01 76 30 FB 3B
+    8B 5D F7 4A 89 7C 9A 35 BE FC CA F0 57 01 F0 8D
+    3F A0 87 32 7B 47 5A 97 4B 82 D2 66 C2 C4 2D EA
+    3F 24 F4 A7 F9 A8 B9 E3 6A D9 18 61 A0 3B 8C 15
+Trust Status : Enabled

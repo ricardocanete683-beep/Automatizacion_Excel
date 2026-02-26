@@ -1,0 +1,90 @@
+Label : Autoridad Certificadora Intermedia de CertiNet S A
+Key Size : 2048
+Version : X509 V3
+Serial : 6bc0cc9638e965f0db2cc7a004d1f8f90670444e
+Issuer : "CN=Autoridad Certificadora ADSS Raiz de Certinet S A,OU=MPKI CA ADSS CertiNet,O=CertiNet S.A.,EMAIL=ca-certinet@certinet.cl,C=CL"
+Subject : "CN=Autoridad Certificadora Intermedia de CertiNet S A,OU=MPKI CA ADSS CertiNet,O=CertiNet S.A.,EMAIL=ca-certinet@certinet.cl,C=CL"
+Not Before : June 17, 2019 2:52:41 PM GMT-04:00
+
+Not After : June 17, 2039 2:52:41 PM GMT-04:00
+
+Public Key
+    30 82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01
+    01 05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01
+    00 B8 2C 84 15 0C 86 7E FC C4 0A D6 59 A6 49 14
+    08 DA 7B 21 E9 0D E7 57 83 45 B3 AA 58 28 8C 8A
+    D9 87 AE DA 58 11 56 BA 82 FC A4 34 67 8D C8 DB
+    59 49 76 8A 3B 62 1A E6 AD A4 F1 80 B0 CE 77 14
+    A7 E3 51 64 F4 63 AE 3B FD F5 94 EA 27 2E FC DC
+    E7 D0 F1 24 FE F4 DA 54 1D 12 33 0E 83 08 C6 2D
+    F4 14 4A 77 DB A2 2C C1 6B C1 3A 62 9F F4 0F C0
+    8F A2 51 33 0C 53 F3 F0 7B E4 8D 67 F0 65 0F 47
+    99 F1 8A 4F 2E C6 B9 F9 34 35 59 28 11 32 F5 DE
+    A2 D3 60 6D 76 92 8E 73 C1 76 41 A7 A8 57 94 B5
+    9D 9C AC E1 87 B6 FF 15 1A 41 FD 8D 11 A5 2D B9
+    89 80 17 FB 69 D9 26 F0 C6 C9 E2 8E B1 75 53 ED
+    AD 5E EE B1 29 AF E3 70 D7 86 E4 FA 7E C3 17 D0
+    BD 10 83 18 04 1D E9 C0 0C 95 9B 8A A0 02 0E 42
+    01 B6 A9 0A B5 9E E0 63 E2 46 CD D1 81 2E C0 25
+    43 62 28 C7 ED 1E D3 CD 8C EB F4 20 B9 55 84 C1
+    59 02 03 01 00 01
+Public Key Type : RSA (1.2.840.113549.1.1.1)
+Fingerprint : SHA1 : 
+    E8 86 D3 D3 D5 BF 0E F3 31 DA 81 81 5A AF 3E 78
+    B5 CC 05 AB
+Fingerprint : MD5 : 
+    A1 6C 6E 5B F6 44 34 28 C8 4A BA 93 C4 DB 6F 9F
+Fingerprint : SHA256 : 
+    C7 F5 CD 98 60 42 97 A2 55 4A 44 EE A8 FB 85 E7
+    DE 71 9A B2 4C 7D 70 55 4B 1F C1 2C C4 63 7F 38
+Fingerprint : HPKP : 
+    gZ0Yms9HEC4OMtwg5slCQam2CXw1pEdeUgN60KCNEYY=
+Extensions
+    key usage: keyCertSign, cRLSign
+        critical
+    basicConstraints
+        ca = true
+        critical
+    AuthorityKeyIdentifier
+      keyIdentifier:
+    FD EE 28 5D 3C D7 2E 5F 2F 2A 5D 14 B1 DB A2 EE
+    1B 4B CC 6D
+      authorityIdentifier:
+      authorityCertSerialNumber:
+    certificatePolicies
+        1.3.6.1.4.1.52428.100
+    CRLDistributionPoints
+      fullname:
+      uniformResourceID:GSKASNObject: OBJECT(tag=22, class=0) value: -----BEGIN HEX-----
+16 3F 68 74 74 70 3A 2F 2F 63 72 6C 2D 61 64 73     .?http://crl-ads
+73 2E 63 65 72 74 69 6E 65 74 2E 63 6C 2F 61 64     s.certinet.cl/ad
+73 73 2F 63 72 6C 73 2F 52 6F 6F 74 2D 43 41 2D     ss/crls/Root-CA-
+41 44 53 53 2D 43 65 72 74 69 6E 65 74 2E 63 72     ADSS-Certinet.cr
+6C                                                  l
+-----END HEX-----
+
+    subjectAlternativeName
+        otherName:  (1.3.6.1.4.1.8321.1) 99532830-5
+    SubjectKeyIdentifier
+      keyIdentifier:
+    64 73 D3 DE 21 63 8B D5 C5 8D C6 16 69 D9 7C FC
+    07 23 8C FC
+Signature Algorithm : SHA256WithRSASignature (1.2.840.113549.1.1.11)
+Value
+    D0 57 8B EB 46 97 79 E5 0B 46 78 3B 9E E0 4B 4F
+    31 47 54 30 2A A1 51 C1 83 98 09 D0 50 6F 65 1E
+    5F 80 EF 5B C2 0B 08 D9 07 68 5B E4 70 83 41 73
+    D6 A9 1F 0D 31 A8 66 7F 8C 79 5E 7A 02 85 88 35
+    FD 57 AC 9A D8 62 DB 60 8B 3A 07 EA AF DC 9A D1
+    39 7E 75 76 61 2C FA 6C EA CD 5F EA 9B 77 A0 80
+    F6 E6 F7 A0 B0 EF 61 7B 18 BD EB B3 81 A0 2D AC
+    99 B2 EC A2 82 23 F6 D4 44 72 95 25 33 67 8D 0D
+    46 73 98 45 A9 53 FE 96 3B BE 1B CB 05 FD 7C F3
+    ED 5D BE 1C BA 8B 89 8C 0D 12 F9 88 B5 B3 7E EA
+    9C AB 93 7D 90 DE EE 26 22 B2 F1 59 BF 01 3B 0E
+    8D 24 24 13 AA 7D 59 32 7C F2 14 F1 EC F7 35 22
+    E8 FC 64 5C CF 57 C2 AF 91 E2 6F F3 A1 82 2C 5D
+    5A 8F 74 7B 95 01 F6 40 85 6F F6 BA E7 5D 6D 30
+    3A 12 8C EC D9 B2 B2 35 7F E6 96 83 F6 AD CA CD
+    77 5E 2E B6 CA 89 0A 79 4D 97 7A 4E B0 EB B8 0F
+Trust Status : Enabled

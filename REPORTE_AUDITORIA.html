@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Auditoria SSL - 2026-02-26</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f2f5; color: #222; padding: 24px; }
+h1 { font-size: 20px; font-weight: 700; color: #1a1a2e; margin-bottom: 4px; }
+.subtitle { font-size: 13px; color: #666; margin-bottom: 20px; }
+/* Barra de criticidad */
+.criticidad-wrap { margin-bottom: 24px; background: white; border-radius: 10px;
+                    padding: 14px 18px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+.criticidad-label { font-size: 12px; font-weight: 600; color: #555; margin-bottom: 8px; }
+.criticidad-bar-bg { background: #e2e8f0; border-radius: 20px; height: 14px; overflow: hidden; }
+.criticidad-bar { height: 14px; border-radius: 20px; transition: width .4s;
+                   background: linear-gradient(90deg, #f6ad55, #e53e3e); }
+.criticidad-pct { font-size: 13px; font-weight: 700; margin-top: 6px;
+                   color: #e53e3e; }
+/* Cards */
+.cards { display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+.card { background: white; border-radius: 10px; padding: 16px 22px; flex: 1; min-width: 160px;
+         box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-left: 4px solid #ccc; cursor: pointer; transition: transform .1s; }
+.card:hover { transform: translateY(-2px); }
+.card.rojo  { border-color: #e53e3e; }
+.card.amari { border-color: #d69e2e; }
+.card.azul  { border-color: #3182ce; }
+.card.gris  { border-color: #718096; }
+.card .num  { font-size: 32px; font-weight: 800; line-height: 1; margin-bottom: 4px; }
+.card.rojo  .num { color: #e53e3e; }
+.card.amari .num { color: #d69e2e; }
+.card.azul  .num { color: #3182ce; }
+.card.gris  .num { color: #718096; }
+.card .lbl  { font-size: 12px; color: #666; font-weight: 500; }
+/* Filtros */
+.filtros { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; }
+.filtros label { font-size: 13px; font-weight: 600; color: #444; }
+select, input { padding: 7px 12px; border: 1px solid #d1d5db; border-radius: 6px;
+                 font-size: 13px; background: white; cursor: pointer; }
+input { width: 220px; }
+.btn { padding: 7px 14px; border: 1px solid #d1d5db; border-radius: 6px;
+        font-size: 13px; cursor: pointer; }
+.btn-reset { background: #f7fafc; color: #555; }
+.btn-reset:hover { background: #edf2f7; }
+.btn-csv { background: #2b6cb0; color: white; border-color: #2b6cb0; font-weight: 600; }
+.btn-csv:hover { background: #2c5282; }
+/* Tabla */
+.tabla-wrap { background: white; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); overflow: hidden; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+thead { background: #1a1a2e; color: white; }
+th { padding: 12px 14px; text-align: left; font-weight: 600; font-size: 12px;
+      text-transform: uppercase; letter-spacing: 0.5px; cursor: pointer; user-select: none; white-space: nowrap; }
+th:hover { background: #2d2d4e; }
+td { padding: 10px 14px; border-bottom: 1px solid #f0f2f5; vertical-align: middle; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: #f8fafc; }
+.badge { display: inline-block; padding: 3px 10px; border-radius: 20px;
+          font-size: 11px; font-weight: 700; letter-spacing: 0.3px; white-space: nowrap; }
+.badge-VENCIDO     { background: #fed7d7; color: #9b2335; }
+.badge-PROXIMO     { background: #fefcbf; color: #744210; }
+.badge-ACTUALIZADO { background: #bee3f8; color: #2b6cb0; }
+.badge-SIN_ARCHIVO { background: #e2e8f0; color: #4a5568; }
+tr.row-VENCIDO td  { background: #fff5f5; }
+tr.row-PROXIMO td  { background: #fffff0; }
+.dias-critico { color: #e53e3e; font-weight: 700; }
+.dias-alerta  { color: #d69e2e; font-weight: 700; }
+.dias-ok      { color: #38a169; }
+.no-rows { text-align: center; padding: 32px; color: #999; font-size: 14px; }
+/* Paginacion */
+.paginacion { display: flex; gap: 6px; justify-content: center; align-items: center;
+               margin-top: 14px; flex-wrap: wrap; }
+.paginacion button { padding: 5px 12px; border: 1px solid #d1d5db; border-radius: 6px;
+                      font-size: 13px; background: white; cursor: pointer; }
+.paginacion button.activa { background: #1a1a2e; color: white; border-color: #1a1a2e; font-weight: 700; }
+.paginacion button:hover:not(.activa) { background: #edf2f7; }
+.paginacion .info { font-size: 12px; color: #888; margin: 0 8px; }
+.footer { margin-top: 12px; font-size: 12px; color: #999; text-align: right; }
+</style>
+</head>
+<body>
+<h1>🔐 Auditoria SSL — COMBMAN Keystores de Infraestructura y Seguridad</h1>
+<div class="subtitle">Generado: 2026-02-26 &nbsp;|&nbsp; Umbral de alerta: 90 dias &nbsp;|&nbsp; v5.0</div>
+
+<div class="criticidad-wrap">
+  <div class="criticidad-label">🔥 Nivel de criticidad global (3 vencidos + 6 proximos sobre 9 certificados evaluados)</div>
+  <div class="criticidad-bar-bg">
+    <div class="criticidad-bar" id="crit-bar" style="width:100%"></div>
+  </div>
+  <div class="criticidad-pct">100% en estado critico o de alerta</div>
+</div>
+
+<div class="cards">
+  <div class="card rojo"  onclick="filtrarEstado('VENCIDO')">
+    <div class="num">3</div><div class="lbl">🔴 Vencidos</div>
+  </div>
+  <div class="card amari" onclick="filtrarEstado('PROXIMO')">
+    <div class="num">6</div><div class="lbl">🟡 Proximos a vencer</div>
+  </div>
+  <div class="card azul"  onclick="filtrarEstado('ACTUALIZADO')">
+    <div class="num">9</div><div class="lbl">🔵 Datos actualizados</div>
+  </div>
+  <div class="card gris"  onclick="filtrarEstado('SIN_ARCHIVO')">
+    <div class="num">0</div><div class="lbl">⚪ Sin archivo .out</div>
+  </div>
+</div>
+
+<div class="filtros">
+  <label>Filtrar:</label>
+  <select id="fil-estado" onchange="cambioFiltro()">
+    <option value="">Todos los estados</option>
+    <option value="VENCIDO">🔴 Vencidos</option>
+    <option value="PROXIMO">🟡 Proximos a vencer</option>
+    <option value="ACTUALIZADO">🔵 Actualizados</option>
+    <option value="SIN_ARCHIVO">⚪ Sin archivo</option>
+  </select>
+  <select id="fil-ambiente" onchange="cambioFiltro()">
+    <option value="">Todos los ambientes</option>
+    <option value="CAMARAPROD">CAMARAPROD</option><option value="CAMARARESP">CAMARARESP</option><option value="CAMARATEST">CAMARATEST</option>
+  </select>
+  <select id="fil-tipo" onchange="cambioFiltro()">
+    <option value="">Todos los tipos</option>
+    <option value="WAS">WAS</option>
+    <option value="AIPAC">AIPAC</option>
+    <option value="PLUG">PLUG.WAS</option>
+  </select>
+  <input type="text" id="fil-buscar" placeholder="🔍 Buscar alias..." oninput="cambioFiltro()">
+  <button class="btn btn-reset" onclick="resetFiltros()">✕ Limpiar</button>
+  <button class="btn btn-csv"   onclick="exportarCSV()">⬇ Exportar CSV</button>
+</div>
+
+<div class="tabla-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th onclick="ordenar('ambiente')">Ambiente ↕</th>
+        <th onclick="ordenar('hoja')">Hoja ↕</th>
+        <th onclick="ordenar('alias')">Alias ↕</th>
+        <th onclick="ordenar('estado')">Estado ↕</th>
+        <th onclick="ordenar('dias')">Dias restantes ↕</th>
+        <th onclick="ordenar('fecha')">Vencimiento ↕</th>
+        <th>Detalle</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <div class="no-rows" id="no-rows" style="display:none">Sin resultados.</div>
+</div>
+
+<div class="paginacion" id="paginacion"></div>
+<div class="footer">Mostrando <span id="cnt-visible">0</span> de 18 registros</div>
+
+<script>
+const datos = [{"ambiente": "CAMARAPROD", "hoja": "CAMARAPROD-WAS", "alias": "default", "estado": "PROXIMO", "dias": 81, "fecha": "2026-05-18", "detalle": ""}, {"ambiente": "CAMARAPROD", "hoja": "CAMARAPROD-WAS", "alias": "AAACertificateService", "estado": "ACTUALIZADO", "dias": 9999, "fecha": "-", "detalle": "FP actualizado"}, {"ambiente": "CAMARAPROD", "hoja": "CAMARAPROD-WAS", "alias": "scombanc", "estado": "PROXIMO", "dias": 24, "fecha": "2026-03-22", "detalle": ""}, {"ambiente": "CAMARAPROD", "hoja": "CAMARAPROD-WAS", "alias": "scombanc", "estado": "ACTUALIZADO", "dias": 9999, "fecha": "-", "detalle": "Serial actualizado"}, {"ambiente": "CAMARARESP", "hoja": "CAMARARESP-WAS", "alias": "default", "estado": "PROXIMO", "dias": 35, "fecha": "2026-04-02", "detalle": ""}, {"ambiente": "CAMARARESP", "hoja": "CAMARARESP-WAS", "alias": "AAACertificateService", "estado": "ACTUALIZADO", "dias": 9999, "fecha": "-", "detalle": "FP actualizado"}, {"ambiente": "CAMARARESP", "hoja": "CAMARARESP-WAS", "alias": "scombanc", "estado": "PROXIMO", "dias": 24, "fecha": "2026-03-22", "detalle": ""}, {"ambiente": "CAMARARESP", "hoja": "CAMARARESP-WAS", "alias": "scombanc", "estado": "ACTUALIZADO", "dias": 9999, "fecha": "-", "detalle": "Serial actualizado"}, {"ambiente": "CAMARARESP", "hoja": "CAMARARESP-AIPAC", "alias": "ws_falabella", "estado": "VENCIDO", "dias": -5783, "fecha": "2010-04-28", "detalle": ""}, {"ambiente": "CAMARARESP", "hoja": "CAMARARESP-AIPAC", "alias": "server-signer", "estado": "VENCIDO", "dias": -3668, "fecha": "2016-02-11", "detalle": ""}, {"ambiente": "CAMARARESP", "hoja": "CAMARARESP-AIPAC", "alias": "mykey", "estado": "VENCIDO", "dias": -3673, "fecha": "2016-02-06", "detalle": ""}, {"ambiente": "CAMARATEST", "hoja": "CAMARATEST-WAS", "alias": "default", "estado": "PROXIMO", "dias": 32, "fecha": "2026-03-30", "detalle": ""}, {"ambiente": "CAMARATEST", "hoja": "CAMARATEST-WAS", "alias": "AAACertificateService", "estado": "ACTUALIZADO", "dias": 9999, "fecha": "-", "detalle": "FP actualizado"}, {"ambiente": "CAMARATEST", "hoja": "CAMARATEST-WAS", "alias": "scombanc", "estado": "PROXIMO", "dias": 24, "fecha": "2026-03-22", "detalle": ""}, {"ambiente": "CAMARATEST", "hoja": "CAMARATEST-WAS", "alias": "scombanc", "estado": "ACTUALIZADO", "dias": 9999, "fecha": "-", "detalle": "Serial actualizado"}, {"ambiente": "CAMARATEST", "hoja": "CAMARATEST-AIPAC", "alias": "signer", "estado": "ACTUALIZADO", "dias": 9999, "fecha": "-", "detalle": "Serial actualizado"}, {"ambiente": "CAMARATEST", "hoja": "CAMARATEST-COMP.PLUG.WAS", "alias": "plugin-key.kdb", "estado": "ACTUALIZADO", "dias": 9999, "fecha": "-", "detalle": "SHA256 actualizado"}, {"ambiente": "CAMARATEST", "hoja": "CAMARATEST-AIPAC", "alias": "| signer", "estado": "ACTUALIZADO", "dias": 9999, "fecha": "-", "detalle": "Serial actualizado"}];
+const POR_PAGINA = 25;
+let orden = {col: 'dias', asc: true};
+let paginaActual = 1;
+let filasFiltradas = [];
+
+function filtrarEstado(e) {
+  document.getElementById('fil-estado').value = e;
+  cambioFiltro();
+}
+
+function resetFiltros() {
+  document.getElementById('fil-estado').value   = '';
+  document.getElementById('fil-ambiente').value = '';
+  document.getElementById('fil-tipo').value     = '';
+  document.getElementById('fil-buscar').value   = '';
+  cambioFiltro();
+}
+
+function cambioFiltro() {
+  paginaActual = 1;
+  renderizar();
+}
+
+function badge(e) {
+  const labels = {VENCIDO:'🔴 VENCIDO', PROXIMO:'🟡 POR VENCER',
+                   ACTUALIZADO:'🔵 ACTUALIZADO', SIN_ARCHIVO:'⚪ SIN ARCHIVO'};
+  return '<span class="badge badge-' + e + '">' + (labels[e]||e) + '</span>';
+}
+
+function diasHtml(d, estado) {
+  if (estado === 'ACTUALIZADO' || estado === 'SIN_ARCHIVO') return '<span style="color:#bbb">—</span>';
+  if (d < 0) return '<span class="dias-critico">Vencido hace ' + Math.abs(d) + ' dias</span>';
+  if (d <= 90) return '<span class="dias-alerta">' + d + ' dias</span>';
+  return '<span class="dias-ok">' + d + ' dias</span>';
+}
+
+function aplicarFiltros() {
+  const fe = document.getElementById('fil-estado').value;
+  const fa = document.getElementById('fil-ambiente').value;
+  const ft = document.getElementById('fil-tipo').value;
+  const fb = document.getElementById('fil-buscar').value.toLowerCase();
+  return datos.filter(d => {
+    if (fe && d.estado !== fe) return false;
+    if (fa && d.ambiente !== fa) return false;
+    if (ft && !d.hoja.includes(ft)) return false;
+    if (fb && !d.alias.toLowerCase().includes(fb) && !d.hoja.toLowerCase().includes(fb)) return false;
+    return true;
+  });
+}
+
+function ordenar(col) {
+  orden = {col, asc: orden.col === col ? !orden.asc : true};
+  renderizar();
+}
+
+function renderizarPaginacion(total) {
+  const totalPags = Math.ceil(total / POR_PAGINA);
+  const wrap = document.getElementById('paginacion');
+  if (totalPags <= 1) { wrap.innerHTML = ''; return; }
+
+  let html = '';
+  html += '<button onclick="irPagina(' + Math.max(1, paginaActual-1) + ')" ' + (paginaActual===1?'disabled':'') + '>‹ Anterior</button>';
+
+  // Paginas con elipsis
+  let inicio = Math.max(1, paginaActual - 2);
+  let fin    = Math.min(totalPags, paginaActual + 2);
+  if (inicio > 1) html += '<button onclick="irPagina(1)">1</button>' + (inicio > 2 ? '<span class="info">…</span>' : '');
+  for (let i = inicio; i <= fin; i++) {
+    html += '<button class="' + (i===paginaActual?'activa':'') + '" onclick="irPagina(' + i + ')">' + i + '</button>';
+  }
+  if (fin < totalPags) html += (fin < totalPags-1 ? '<span class="info">…</span>' : '') + '<button onclick="irPagina(' + totalPags + ')">' + totalPags + '</button>';
+
+  html += '<button onclick="irPagina(' + Math.min(totalPags, paginaActual+1) + ')" ' + (paginaActual===totalPags?'disabled':'') + '>Siguiente ›</button>';
+  html += '<span class="info">Pagina ' + paginaActual + ' de ' + totalPags + '</span>';
+  wrap.innerHTML = html;
+}
+
+function irPagina(p) {
+  paginaActual = p;
+  renderizar();
+}
+
+function renderizar() {
+  filasFiltradas = aplicarFiltros();
+  filasFiltradas.sort((a, b) => {
+    let va = a[orden.col], vb = b[orden.col];
+    if (orden.col === 'dias') { va = Number(va); vb = Number(vb); return orden.asc ? va-vb : vb-va; }
+    return orden.asc ? String(va).localeCompare(String(vb)) : String(vb).localeCompare(String(va));
+  });
+
+  const inicio  = (paginaActual - 1) * POR_PAGINA;
+  const pagina  = filasFiltradas.slice(inicio, inicio + POR_PAGINA);
+
+  const tbody = document.getElementById('tbody');
+  document.getElementById('no-rows').style.display = filasFiltradas.length ? 'none' : 'block';
+  document.getElementById('cnt-visible').textContent = filasFiltradas.length;
+
+  tbody.innerHTML = pagina.map(d => `
+    <tr class="row-${d.estado}">
+      <td><strong>${d.ambiente}</strong></td>
+      <td>${d.hoja || '—'}</td>
+      <td style="max-width:280px;word-break:break-word">${d.alias}</td>
+      <td>${badge(d.estado)}</td>
+      <td>${diasHtml(d.dias, d.estado)}</td>
+      <td>${d.fecha === '-' ? '<span style="color:#bbb">—</span>' : d.fecha}</td>
+      <td style="font-size:12px;color:#555">${d.detalle}</td>
+    </tr>`).join('');
+
+  renderizarPaginacion(filasFiltradas.length);
+}
+
+function exportarCSV() {
+  const filas = filasFiltradas.length ? filasFiltradas : aplicarFiltros();
+  const encabezado = ['Ambiente','Hoja','Alias','Estado','Dias restantes','Vencimiento','Detalle'];
+  const lineas = [encabezado.join(';')];
+  filas.forEach(d => {
+    const diasVal = (d.estado === 'ACTUALIZADO' || d.estado === 'SIN_ARCHIVO') ? '-' : d.dias;
+    lineas.push([d.ambiente, d.hoja, '"'+d.alias.replace(/"/g,'""')+'"', d.estado, diasVal, d.fecha, d.detalle].join(';'));
+  });
+  const blob = new Blob(['﻿' + lineas.join('\n')], {type:'text/csv;charset=utf-8;'});
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = 'auditoria_ssl_2026-02-26.csv';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+renderizar();
+</script>
+</body>
+</html>

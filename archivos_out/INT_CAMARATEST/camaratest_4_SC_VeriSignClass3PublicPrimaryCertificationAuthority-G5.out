@@ -1,0 +1,79 @@
+Label : VeriSignClass3PublicPrimaryCertificationAuthority-G5
+Key Size : 2048
+Version : X509 V3
+Serial : 18dad19e267de8bb4a2158cdcc6b3b4a
+Issuer : "CN=VeriSign Class 3 Public Primary Certification Authority - G5,OU=(c) 2006 VeriSign\, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US"
+Subject : "CN=VeriSign Class 3 Public Primary Certification Authority - G5,OU=(c) 2006 VeriSign\, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US"
+Not Before : November 7, 2006 8:00:00 PM GMT-04:00
+
+Not After : July 16, 2036 7:59:59 PM GMT-04:00
+
+Public Key
+    30 82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01
+    01 05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01
+    00 AF 24 08 08 29 7A 35 9E 60 0C AA E7 4B 3B 4E
+    DC 7C BC 3C 45 1C BB 2B E0 FE 29 02 F9 57 08 A3
+    64 85 15 27 F5 F1 AD C8 31 89 5D 22 E8 2A AA A6
+    42 B3 8F F8 B9 55 B7 B1 B7 4B B3 FE 8F 7E 07 57
+    EC EF 43 DB 66 62 15 61 CF 60 0D A4 D8 DE F8 E0
+    C3 62 08 3D 54 13 EB 49 CA 59 54 85 26 E5 2B 8F
+    1B 9F EB F5 A1 91 C2 33 49 D8 43 63 6A 52 4B D2
+    8F E8 70 51 4D D1 89 69 7B C7 70 F6 B3 DC 12 74
+    DB 7B 5D 4B 56 D3 96 BF 15 77 A1 B0 F4 A2 25 F2
+    AF 1C 92 67 18 E5 F4 06 04 EF 90 B9 E4 00 E4 DD
+    3A B5 19 FF 02 BA F4 3C EE E0 8B EB 37 8B EC F4
+    D7 AC F2 F6 F0 3D AF DD 75 91 33 19 1D 1C 40 CB
+    74 24 19 21 93 D9 14 FE AC 2A 52 C7 8F D5 04 49
+    E4 8D 63 47 88 3C 69 83 CB FE 47 BD 2B 7E 4F C5
+    95 AE 0E 9D D4 D1 43 C0 67 73 E3 14 08 7E E5 3F
+    9F 73 B8 33 0A CF 5D 3F 34 87 96 8A EE 53 E8 25
+    15 02 03 01 00 01
+Public Key Type : RSA (1.2.840.113549.1.1.1)
+Fingerprint : SHA1 : 
+    4E B6 D5 78 49 9B 1C CF 5F 58 1E AD 56 BE 3D 9B
+    67 44 A5 E5
+Fingerprint : MD5 : 
+    CB 17 E4 31 67 3E E2 09 FE 45 57 93 F3 0A FA 1C
+Fingerprint : SHA256 : 
+    9A CF AB 7E 43 C8 D8 80 D0 6B 26 2A 94 DE EE E4
+    B4 65 99 89 C3 D0 CA F1 9B AF 64 05 E4 1A B7 DF
+Fingerprint : HPKP : 
+    JbQbUG5JMJUoI6brnx0x3vZF6jilxsapbXGVfjhN8Fg=
+Extensions
+    basicConstraints
+        ca = true
+        critical
+    key usage: keyCertSign, cRLSign
+        critical
+     (1.3.6.1.5.5.7.1.12)
+        Value
+    30 5F A1 5D A0 5B 30 59 30 57 30 55 16 09 69 6D
+    61 67 65 2F 67 69 66 30 21 30 1F 30 07 06 05 2B
+    0E 03 02 1A 04 14 8F E5 D3 1A 86 AC 8D 8E 6B C3
+    CF 80 6A D4 48 18 2C 7B 19 2E 30 25 16 23 68 74
+    74 70 3A 2F 2F 6C 6F 67 6F 2E 76 65 72 69 73 69
+    67 6E 2E 63 6F 6D 2F 76 73 6C 6F 67 6F 2E 67 69
+    66
+    SubjectKeyIdentifier
+      keyIdentifier:
+    7F D3 65 A7 C2 DD EC BB F0 30 09 F3 43 39 FA 02
+    AF 33 31 33
+Signature Algorithm : SHA1WithRSASignature (1.2.840.113549.1.1.5)
+Value
+    93 24 4A 30 5F 62 CF D8 1A 98 2F 3D EA DC 99 2D
+    BD 77 F6 A5 79 22 38 EC C4 A7 A0 78 12 AD 62 0E
+    45 70 64 C5 E7 97 66 2D 98 09 7E 5F AF D6 CC 28
+    65 F2 01 AA 08 1A 47 DE F9 F9 7C 92 5A 08 69 20
+    0D D9 3E 6D 6E 3C 0D 6E D8 E6 06 91 40 18 B9 F8
+    C1 ED DF DB 41 AA E0 96 20 C9 CD 64 15 38 81 C9
+    94 EE A2 84 29 0B 13 6F 8E DB 0C DD 25 02 DB A4
+    8B 19 44 D2 41 7A 05 69 4A 58 4F 60 CA 7E 82 6A
+    0B 02 AA 25 17 39 B5 DB 7F E7 84 65 2A 95 8A BD
+    86 DE 5E 81 16 83 2D 10 CC DE FD A8 82 2A 6D 28
+    1F 0D 0B C4 E5 E7 1A 26 19 E1 F4 11 6F 10 B5 95
+    FC E7 42 05 32 DB CE 9D 51 5E 28 B6 9E 85 D3 5B
+    EF A5 7D 45 40 72 8E B7 0E 6B 0E 06 FB 33 35 48
+    71 B8 9D 27 8B C4 65 5F 0D 86 76 9C 44 7A F6 95
+    5C F6 5D 32 08 33 A4 54 B6 18 3F 68 5C F2 42 4A
+    85 38 54 83 5F D1 E8 2C F2 AC 11 D6 A8 ED 63 6A
+Trust Status : Enabled

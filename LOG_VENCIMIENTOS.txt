@@ -1,0 +1,21 @@
+============================================================
+  REPORTE DE VENCIMIENTO DE CERTIFICADOS
+  Generado: 26/02/2026
+  Umbral de alerta: 90 dias
+============================================================
+
+CERTIFICADOS VENCIDOS (3):
+----------------------------------------
+  [CAMARARESP-AIPAC] 'ws_falabella': VENCIDO hace 5783 dias (2010-04-28)
+  [CAMARARESP-AIPAC] 'server-signer': VENCIDO hace 3668 dias (2016-02-11)
+  [CAMARARESP-AIPAC] 'mykey': VENCIDO hace 3673 dias (2016-02-06)
+
+PROXIMOS A VENCER - menos de 90 dias (6):
+----------------------------------------
+  [CAMARAPROD-WAS] 'default': PROXIMO A VENCER en 81 dias (2026-05-18)
+  [CAMARAPROD-WAS] 'scombanc': PROXIMO A VENCER en 24 dias (2026-03-22)
+  [CAMARARESP-WAS] 'default': PROXIMO A VENCER en 35 dias (2026-04-02)
+  [CAMARARESP-WAS] 'scombanc': PROXIMO A VENCER en 24 dias (2026-03-22)
+  [CAMARATEST-WAS] 'default': PROXIMO A VENCER en 32 dias (2026-03-30)
+  [CAMARATEST-WAS] 'scombanc': PROXIMO A VENCER en 24 dias (2026-03-22)
+
